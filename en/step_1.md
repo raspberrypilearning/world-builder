@@ -1,19 +1,18 @@
 ## Introduction
 
-In this project, <mark> short project description </mark>
+Use your Unity skills to design and build an 3D world with a player character of your choice. 
 
-<mark>Boxout (wherever wanted/needed) </mark>
+You will build on this world in the next two projects in the [Introduction to Unity path](https://projects.raspberrypi.org/en/raspberrypi/unity-intro).
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">**World building**</span> is imagining an environment and then making it come to life. World building can involve storytelling, visual design, map making and character design. In Unity you can imagine a 3D world and then make it so that others can experience it. 
 </p>
 
-<mark>Objectives in language that learners will understand</mark>
-
 You will:
-+ 
-+ 
-+
++ Choose a 3D Player character (use a provided model or make your own from 3D GameObjects)
++ Build a 3D environment using 3D GameObjects organised with child GameObjects
++ Decide on camera settings and movement controls for your Player character
+
 
 <mark>Image of many different examples in a strip</mark>
 
@@ -26,41 +25,24 @@ You will:
 
 ### Try it 
 
-Description of what to do or think about when looking at the example.
+Navigate through the world in the example project. Think about the GameObjects including their shape, materials and positions. 
++ Does the character fit the theme? 
++ How have the structures been created? 
 
-</div>
-<div>
-**Gobo watching**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
-</div>
-
-</div>
+<mark>add example projects</mark>
 
 --- /task ---
 
 ### Get inspiration 
 
-You are going to make some design decisions to ...
+You are going to make some design decisions to build your world.
 
 --- task ---
 
 Explore these example projects to get more ideas:
 
-**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
-</div>
+<mark>add example projects</mark>
 
-**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
 --- /task ---
 --- /no-print ---
 
@@ -68,7 +50,9 @@ Explore these example projects to get more ideas:
 
 ### Get inspiration 
 
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 1: Googly eye character - Examples](https://scratch.mit.edu/studios/29029028/){:target="_blank"} Scratch studio.
+You are going to make some design decisions to build your world.
+
+Use these example images to get more ideas:
 
 <mark>one image file per example</mark>
 
