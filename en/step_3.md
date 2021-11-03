@@ -5,7 +5,7 @@
 The player needs to be able to control your character so that they can move around your world. 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+Image, gif or video showing what they will achieve by the end of the step. ![](images/snow-scenery.png.png){:width="300px"}
 </div>
 </div>
 
