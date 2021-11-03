@@ -25,13 +25,14 @@ Open your Introduction to Unity project containing the scenes you created in the
 
 --- /task ---
 
+--- task ---
+
+**Choose:**
+
 You can either create a new empty scene in the project, or save a copy of your Non-player character scene with a new name. 
 
 Name the new scene with the name of your world. 
 
---- task ---
-
-**Choose:**
 
 --- collapse ---
 
@@ -157,7 +158,6 @@ Add a '3D Object' to your scene to represent the player.
 Name the new GameObject 'Player' and add the 'Player' tag.  
 
 Right-click on the Player and add other 3D shapes from 'Create' -> '3D Object' as child game objects. The child objects will move with the Player GameObject. 
-
 
 --- /collapse ---
 
