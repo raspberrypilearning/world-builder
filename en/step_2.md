@@ -2,7 +2,8 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+What will your world be like? The material you choose for the ground will set the scene and you will choose or create a player character. 
+
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
@@ -50,7 +51,7 @@ title: Save a copy of an existing scene
 
 Right-click on your NPC scene and choose 'Save As'. 
 
-You can delete any GameObjects that you don't want in your new world. If you think you might want to use a GameObject later, you can deactivate it by unchecking the box next to its name in the Inspector. 
+Delete any GameObjects that you don't want in your new world. If you think you might want to use a GameObject later, you can deactivate it by unchecking the box next to its name in the Inspector. 
 
 ![The inspector window for the NPC Dog GameObject with the active box unchecked.](images/path)
 
@@ -122,6 +123,9 @@ If you made a copy of an existing scene but want a different player character:
 + Drag the Main Camera from the existing Player to the top level in the Hierarchy, then
 + Delete the Player GameObject. 
 
+
+Models can be created in 3D modelling tools such as Blender. You can also reuse existing Models if you have permission. To save time, we recommend that you use one of the models we have provided, or design your own GameObject using 3D shapes in Unity.
+
 **Choose:**
 
 --- collapse ---
@@ -137,6 +141,8 @@ Drag the model to your scene.
 Name the new GameObject 'Player' and add the 'Player' tag.  
 
 Adjust the start position of the Player's transform. 
+
+If you use the Cat or Raccoon then decide which accessories you will enable and disable the others by unchecking the box next to their name in the Inspector.
 
 --- /collapse ---
 
@@ -168,6 +174,20 @@ title: The material texture is too big or small
 ---
 
 You can change the **Tiling** properties for the Material, or for a material used in a GameObject. Choose bigger tiling numbers to create a smaller pattern.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: I deleted the Camera!
+---
+
+If your camera is a child of the Player and you delete the Player then you will also delete the Camera.
+
+To add a new Camera, right-click in the Hierarchy and choose Camera. 
+
+You can drag this Camera to be a child of your Player and adjust the settings. 
 
 --- /collapse ---
 

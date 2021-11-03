@@ -10,9 +10,8 @@ You will build on this world in the next two projects in the [Introduction to Un
 
 You will:
 + Choose a 3D Player character (use a provided model or make your own from 3D GameObjects)
-+ Build a 3D environment using 3D GameObjects organised with child GameObjects
++ Build a 3D environment using 3D GameObjects and Particle Systems
 + Decide on camera settings and movement controls for your Player character
-
 
 <mark>Image of many different examples in a strip</mark>
 
