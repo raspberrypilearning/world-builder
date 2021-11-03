@@ -5,15 +5,18 @@
 Now you can build out the map of your world with scenery and particle systems. 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/snow-scenery.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
+
 Use 3D shapes to add steps or hills to your world to create different levels for your player to explore. 
+
 --- /task ---
 
 --- task ---
+
 The 'Character Controller' component has properties that allow the character to walk up slopes and steps. 
 
 --- collapse ---
