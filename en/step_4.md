@@ -22,7 +22,15 @@ The 'Character Controller' component has properties that allow the character to 
 title: Steps and slopes with the Character Controller
 ---
 
+The Character Controller allows a GameObject to move up slopes and steps. 
 
+You can adjust the settings to control the behaviour:
++ **Slope Limit** - The character will walk up slopes that are less than this number of degrees. 
++ **Step Offset** - The character will walk up steps that are less than this height. 
+
+The default settings will be fine for many situations. 
+
+**Tip:** Walking on surfaces is based on colliders, not on the visible parts of the GameObject. If you get unusual behaviour then click on Gizmos in the Game view to view the colliders as you test your game. 
 
 --- /collapse ---
 
@@ -32,6 +40,20 @@ title: Steps and slopes with the Character Controller
 **Test:** Play your scene and try walking up the slopes or steps you created. 
 
 Adjust the Character Controller settings or your scenery to get the effect you want. 
+
+**Debug:**
+
+--- collapse ---
+
+---
+title: My character is walking in the air!
+---
+
+Walking on surfaces is based on colliders, not on the visible parts of the GameObjects. If you get unusual behaviour then click on Gizmos in the Game view to view the colliders as you test your game. 
+
+Adjust the colliders so that the character can get close enough to the surface to walk on it. 
+
+--- /collapse ---
 
 --- /task ---
 
@@ -68,11 +90,9 @@ title: Add model objects to a scene
 
 Navigate to a model in the Project window then drag it to the Scene view to add it to your scene. 
 
-Adjust the Transform to position, rotate or scale the GameObject. 
+You can adjust the Transform of the GameObjects you create to change their position, rotation and scale (size).
 
 --- /collapse ---
-
-You can adjust the Transform of the GameObjects you create to change their position, rotation and scale (size).
 
 --- collapse ---
 
@@ -80,7 +100,11 @@ You can adjust the Transform of the GameObjects you create to change their posit
 title: View your world in top-down perspective
 ---
 
+To see your map in a top-down view Right click where it says 'Persp' in the top right of the Scene view and choose 'Top'. 
 
+You can use the arrow keys to move left and right and zoom. Hold the right mouse button down and drag to move and rotate.
+
+To return to the normal view, right-click on Top and choose 'Free'.
 
 --- /collapse ---
 

@@ -183,7 +183,13 @@ Add a '3D Object' to your scene to represent the player.
 
 Name the new GameObject 'Player' and add the 'Player' tag.  
 
+![The Inspector window for the Player character. The model has been remnamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
+
 Right-click on the Player and add other 3D shapes from 'Create' -> '3D Object' as child game objects. The child objects will move with the Player GameObject. 
+
+This character has a 'Capsule' body with child GameObjects that are 'Spheres', and 'Cylinders'. The shapes have been renames to represent their body part. 
+
+![A 3D shape character in Scene view and the Hierarchy window showing the 3D shape child objects that make up the whole character.](images/3d-shape-character..png)
 
 --- /collapse ---
 
@@ -200,6 +206,10 @@ title: The material texture is too big or small
 ---
 
 You can change the **Tiling** properties for the Material, or for a material used in a GameObject. Choose bigger tiling numbers to create a smaller pattern.
+
+![the Inspector window showing Tiling size set to '50'.](images/tiling-component.png)
+
+![The Game view plane with Stone Wall material tiled at 1 (very large stones), 50 (medium sized stones), and 100 (small stones).](images/tiling.png)
 
 --- /collapse ---
 
