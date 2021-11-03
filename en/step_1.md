@@ -13,7 +13,7 @@ You will:
 + Build a 3D environment using 3D GameObjects and Particle Systems
 + Decide on camera settings and movement controls for your Player character
 
-<mark>Image of many different examples in a strip</mark>
+![A strip of Game view images from four different projects. A snow scene, a maze, a minigame world and a car circuit.](images/examples.png)
 
 --- no-print ---
 
@@ -28,7 +28,7 @@ Navigate through the world in the example project. Think about the GameObjects i
 + Does the character fit the theme? 
 + How have the structures been created? 
 
-<mark>add example projects</mark>
+<mark>add example project</mark>
 
 --- /task ---
 
@@ -53,7 +53,10 @@ You are going to make some design decisions to build your world.
 
 Use these example images to get more ideas:
 
-<mark>one image file per example</mark>
+![](images/snow-world.png)
+![](images/maze-world.png)
+<mark> ![](images/car-circuit.png) </mark>
+<mark> ![](images/minigame.png) </mark>
 
 --- /print-only ---
 

@@ -38,17 +38,27 @@ Adjust the Character Controller settings or your scenery to get the effect you w
 --- task ---
 Now add some scenery to your world.
 
-You can use the models we have provided, 3D shapes or a combination. 
+You can use the models we have provided, 3D Objects or a combination. 
+
+[unity-3d-objects]
 
 --- collapse ---
 
 ---
-title: Add 3D shapes to a scene
+title: Add 3D Objects to a scene
 ---
 
+You can add spheres, cubes, cylinders and other 3D shapes to a scene. 
 
+Right-click in the Hierarchy and choose '3D Object' and then the shape of your choice. 
+
+You can also right-click on a shape in the Hierarchy and add more shapes as child objects. You can position child objects relative to the parent so that they will move with the parent if you reposition it. 
 
 --- /collapse ---
+
+[unity-add-material]
+
+We have included Car, Tree and other models that could be used as scenery in your world. 
 
 --- collapse ---
 
@@ -56,11 +66,33 @@ title: Add 3D shapes to a scene
 title: Add model objects to a scene
 ---
 
+Navigate to a model in the Project window then drag it to the Scene view to add it to your scene. 
 
+Adjust the Transform to position, rotate or scale the GameObject. 
 
 --- /collapse ---
 
 You can adjust the Transform of the GameObjects you create to change their position, rotation and scale (size).
+
+--- collapse ---
+
+---
+title: View your world in top-down perspective
+---
+
+
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Navigate your world in Scene view
+---
+
+
+
+--- /collapse ---
 
 --- /task ---
 
@@ -100,8 +132,27 @@ Try adjusting these settings:
 
 --- /task ---
 
+Background music is another way to add atmosphere to a world. 
+
 --- task ---
-Add background music. 
+
+The DeathLoop and MenuTheme sounds are suitable for background music. 
+
+<mark>Update if we add more or rename these.</mark>
+
+--- collapse ---
+
+---
+title: Add looping background music
+---
+
+Background music can be attached to any GameObject, you could choose the floor plane, or the Player. 
+
+Select a GameObject and choose 'Add Component' and then 'Audio Source'. Click on the circle next to AudioClip and choose your music. 
+
+Make sure 'Play on Awake' is selected to automatically play the music and check the 'Loop' box to play the music repeatedly in a loop.
+
+--- /collapse ---
 
 <mark>Would be better if we had a choice of music.</mark>
 
