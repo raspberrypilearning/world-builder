@@ -23,9 +23,15 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 title: Reuse your PlayerController script for a Cat or Raccoon
 ---
 
-Character controller
-Script
-Animator
+Select your Player GameObject and then click 'Add Component' in the Inspector and choose 'Character controller'.
+
+Find your IdleWalk Animator in the Project window, select the Player GameObject and drag the Animator to the Inspector. 
+
+Find your PlayerController script in the Project window, select the Player GameObject and drag the script to the Inspector. 
+
+**Tip:** You can also drag the Script and Animator from the Project window to the Player GameObject in the Hierarchy. Just be careful to drag it to the correct GameObject. 
+
+<mark>Mention the specific folder location of these Assets when we finalise it.</mark>
 
 --- /collapse ---
 
@@ -90,7 +96,7 @@ title: My character isn't moving
 
 + Check that you are in Playmode with the green tint and you have the mouse cursor over the Game view. 
 + Check for any errors in the Console. If there are errors in GameObjects you are not using, such as NPCs, then you could delete the NPCs (you can copy them from another scene if you want them later.)
-+ Make sure that the SimpleController script is attached to the correct GameObject - your Player. 
++ Make sure that the SimpleController script is attached to the Player GameObject (and not a different GameObject). 
 
 --- /collapse ---
 
