@@ -29,13 +29,15 @@ These two walls both use the same Asset to create a brick effect. What kind of A
 
   --- feedback ---
 
-  No, a Cube GameObject can be used to create a wall 
+  No, a Cube GameObject can be used to create a wall but it needs something else to add a pattern. 
 
   --- /feedback ---
 
-- ( ) Model
+- ( ) Mesh
 
   --- feedback ---
+
+  No, a Mesh describes a 3D shape in Unity. Something else is used to create a pattern like the brick effect.  
 
   --- /feedback ---
 

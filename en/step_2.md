@@ -77,7 +77,7 @@ title: Add a plane
 
 Right-click on your scene in the Hierarchy and select 'GameObject' then '3D Object' then 'Plane'. 
 
-![The 3D object menue with 'plane' highlihted.](images/3D-plane.png)
+![The 3D object menu with 'plane' highlihted.](images/3D-plane.png)
 
 The default size for the plane is 10m x 10m. Unity uses metres as the unit of measurement.
 
@@ -87,7 +87,7 @@ You can change the X and Z Scale properties for the Plane's Transform in the Sce
 
 --- /collapse ---
 
-Add or change the material for the plane to fit with the world you are designing. 
+Add or change the material for the plane to fit with the world you are designing.
 
 ![The Scene view showing a large plane with 'Yellow Stone' material.](images/yellow-stone-plane.png)
 
@@ -159,11 +159,17 @@ Navigate to the Model you want to use in the Project window.
 
 Drag the model to your scene. 
 
-Name the new GameObject 'Player' and add the 'Player' tag.  
+![The Scene view with the raccoon model added.](images/raccoon-character.png)
+
+Name the new GameObject 'Player' and add the 'Player' tag. 
+
+![The Inspector window for the Player character. The model has been remnamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
 
 Adjust the start position of the Player's transform. 
 
 If you use the Cat or Raccoon then decide which accessories you will enable and disable the others by unchecking the box next to their name in the Inspector.
+
+![The Player with 'ConstructionGearMesh' and 'PartHatandBowtie' disabled.](images/child-disabled.png)
 
 --- /collapse ---
 
