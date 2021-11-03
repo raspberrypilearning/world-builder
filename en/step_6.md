@@ -1,18 +1,17 @@
 ## Upgrade your project
 
-If you have time you can upgrade to your project. 
+If you have time you can upgrade to your project and add more features to your world. 
 
 Here are some ideas you could try:
-- ...
-- ...
+- Add walls around your world so that the player can't walk off the map.
+- Make your plane bigger and add different areas to explore.
+- If you made your own Player GameObject, add more detail to it. 
+- Make more detailed scenery objects using 3D GameObjects with child objects. 
+- Experiment with particle systems to create interesting effects in different areas of your map. 
+- Adjust the player's movement and the camera angle to get the effect you want. 
 
-<mark> Optional </mark>Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch and look at the code to get ideas and see how they work.
+<mark>Add a further example?</mark>
 
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Take a look at our [Googly eye character Scratch studio](https://scratch.mit.edu/studios/29120534){:target="_blank"} to see projects created by community members.
+<mark>Add link to community projects?</mark>
 
 --- save ---

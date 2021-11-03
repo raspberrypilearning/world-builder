@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you can build out the map of your world. 
+Now you can build out the map of your world with scenery and particle systems. 
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
@@ -83,6 +83,13 @@ title: Add a Particle System
 
 
 --- /collapse ---
+
+--- /task ---
+
+--- task ---
+Add background music. 
+
+<mark>Would be better if we had a choice of music.</mark>
 
 --- /task ---
 
