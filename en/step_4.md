@@ -132,10 +132,10 @@ You can adjust the Transform of the GameObjects you create to change their posit
 
 Particle Systems are a great way to make your world come to life. 
 
-![Animated gif showing the Game view of the snow scene with particle system providing a snow effect.](images/snow-particles.gif)
-
 --- task ---
 Consider whether particle effects could make your world more interesting. They can be used to make objects sparkle, to create weather effects, to make a volcano errupt. 
+
+![Animated gif showing the Game view of the snow scene with particle system providing a snow effect.](images/snow-particles.gif)
 
 [[[unity-particle-system]]]
 
