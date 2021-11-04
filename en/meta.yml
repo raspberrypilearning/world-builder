@@ -1,0 +1,21 @@
+title: World Builder
+hero_image: images/banner.png
+description: Design and build a 3D world with interesting scenery and features with a player character of your choice.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Introduction
+  - title: Theme your world
+  - title: Player controls
+  - title: Build scenery
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your project
+  - title: Share
+  - title: What next?
