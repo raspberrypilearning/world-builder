@@ -161,7 +161,7 @@ Right-click on the Player and add other 3D shapes from 'Create' -> '3D Object' a
 
 This character has a 'Capsule' body with child GameObjects that are 'Spheres', and 'Cylinders'. The shapes have been renames to represent their body part. 
 
-![A 3D shape character in Scene view and the Hierarchy window showing the 3D shape child objects that make up the whole character.](images/3d-shape-character..png)
+![A 3D shape character in Scene view and the Hierarchy window showing the 3D shape child objects that make up the whole character.](images/3d-shape-character.png)
 
 --- /collapse ---
 

@@ -19,6 +19,8 @@ Use 3D shapes to add steps or hills to your world to create different levels for
 
 The 'Character Controller' component has properties that allow the character to walk up slopes and steps. 
 
+![The Character Controller component in the Inspector window with 'Slope limit' and 'Step offset' properties.](images/slopes-steps.png)
+
 --- collapse ---
 
 ---
@@ -33,6 +35,8 @@ You can adjust the settings to control the behaviour:
 
 The default settings will be fine for many situations. 
 
+![The Character Controller component in the Inspector window with 'Slope limit' and 'Step offset' properties.](images/slopes-steps.png)
+
 **Tip:** Walking on surfaces is based on colliders, not on the visible parts of the GameObject. If you get unusual behaviour then click on Gizmos in the Game view to view the colliders as you test your game. 
 
 --- /collapse ---
@@ -40,6 +44,7 @@ The default settings will be fine for many situations.
 --- /task ---
 
 --- task ---
+
 **Test:** Play your scene and try walking up the slopes or steps you created. 
 
 Adjust the Character Controller settings or your scenery to get the effect you want. 
@@ -65,6 +70,8 @@ Now add some scenery to your world.
 
 You can use the models we have provided, 3D Objects or a combination. 
 
+![Side by side images of the Scene view with a tree made of 3D shapes and a tree from a model.](images/different-trees.png)
+
 [unity-3d-objects]
 
 --- collapse ---
@@ -79,9 +86,19 @@ Right-click in the Hierarchy and choose '3D Object' and then the shape of your c
 
 You can also right-click on a shape in the Hierarchy and add more shapes as child objects. You can position child objects relative to the parent so that they will move with the parent if you reposition it. 
 
+![The Hierarchy window showing 3D shape child objects that together make a tree.](images/tree-hierarchy.png)
+
 --- /collapse ---
 
-[unity-add-material]
+--- collapse ---
+
+---
+title: Add a material to a GameObject
+---
+
+To add a material to a GameObject, navigate to the material in the Model window and drag the material over the GameObject in the scene view. The new material will be applied immediately. 
+
+--- /collapse ---
 
 We have included Car, Tree and other models that could be used as scenery in your world. 
 
@@ -97,33 +114,9 @@ You can adjust the Transform of the GameObjects you create to change their posit
 
 --- /collapse ---
 
---- collapse ---
+[[[unity-scene-top-down]]]
 
----
-title: View your world in top-down perspective
----
-
-To see your map in a top-down view Right click where it says 'Persp' in the top right of the Scene view and choose 'Top'. 
-
-![The Scene view in top down view zoomed out to show the whole world.](images/top-down-maze.png)
-
-You can use the arrow keys to move left and right and zoom. Hold the right mouse button down and drag to move and rotate.
-
-To return to the normal view, right-click on Top and choose 'Free'.
-
-![The Sene view returned to free view to show the world at a closer, lower, angle.](images/maze-world.png)
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Navigate your world in Scene view
----
-
-
-
---- /collapse ---
+[[[unity-scene-navigation]]]
 
 --- /task ---
 
