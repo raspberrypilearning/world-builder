@@ -5,7 +5,9 @@
 legend: Question 2 of 3
 ---
 
-These two walls both use the same Asset to create a brick effect. What kind of Asset is it? [Images of two walls with the same texture but different colours.]
+These two walls both use the same Asset to create a brick effect. What kind of Asset is it? 
+
+![Side by side images of two walls with brick effect. One wall is grey and the other wall orange. This is the only difference.](images/two-walls.png)
 
 --- choices ---
 
