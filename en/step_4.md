@@ -76,23 +76,6 @@ You can use the models we have provided, 3D Objects or a combination.
 
 [[[unity-3d-objects]]]
 
---- collapse ---
-
----
-title: Add 3D Objects to a scene
----
-
-You can add spheres, cubes, cylinders and other 3D shapes to a scene. 
-
-![The 3D object menu showing available 3D objects including sphere, cube, plane, cylinders.](images/3d-object-list.png)
-
-Right-click in the Hierarchy and choose '3D Object' and then the shape of your choice. 
-
-You can also right-click on a shape in the Hierarchy and add more shapes as child objects. You can position child objects relative to the parent so that they will move with the parent if you reposition it. 
-
-![The Hierarchy window showing 3D shape child objects that together make a tree.](images/tree-hierarchy.png)
-
---- /collapse ---
 
 --- collapse ---
 
@@ -124,7 +107,11 @@ title: Add model objects to a scene
 
 Navigate to a model in the Project window then drag it to the Scene view to add it to your scene. 
 
+![The Scene view with 'Bin' model.](images/model-scene.png)
+
 You can adjust the Transform of the GameObjects you create to change their position, rotation and scale (size).
+
+![The Inspector window with 'Transform' component.](images/transform-default.png)
 
 --- /collapse ---
 
@@ -137,36 +124,20 @@ You can adjust the Transform of the GameObjects you create to change their posit
 --- task ---
 **Test:** Play your scene and walk around. You might want to adjust the camera angle to work well with the scenery you've chosen. 
 
+![The Transform component for the camera in the Inspector window showing Position settings X = 0, Y = 3, Z = -10 and Rotation Y = -20. ](images/camera-transform.png)
+
+![An animated gif showing the camera following the player at a height that shows enough of the scene but still adds mystery. ](images/camera-follow.gif)
+
 --- /task ---
 
 Particle Systems are a great way to make your world come to life. 
 
+![Animated gif showing the Game view of the snow scene with particle system providing a snow effect.](images/snow-particles.gif)
+
 --- task ---
 Consider whether particle effects could make your world more interesting. They can be used to make objects sparkle, to create weather effects, to make a volcano errupt. 
 
---- collapse ---
-
----
-title: Add a Particle System
----
-
-Particle Systems use lots of small images to create graphical effects that make a 3D world come alive. 
-
-Click in the Inspector and choose 'Effects' -> 'Particle System' to add a particle effect to your world. You can also add a Particle System as a child of another GameObject if that makes sense. 
-
-There are lots of settings you can experiment with to get different particle effects. 
-
-Try adjusting these settings:
-+ **Start Color** - Click on the colour to choose the colour for your particles. 
-+ **Start Speed** - Control how fast your particles move. 
-+ **Start Size** - Control the size of each particle. 
-+ **Gravity Modifier** - Set to a positive number if you want your particles to fall to the ground. 
-+ **Shape** - Controls the shape that particles appear from. The default is a Cone shape but it might make more sense for your particles to appear in a Sphere or a Cube area. 
-+ **Max Particles** - The maximum number of particles that will be active at the same time. 
-
-<mark>It would be good if we could include some specific examples such as snow, smoke, volcano erupting.</mark>
-
---- /collapse ---
+[[[unity-particle-system]]]
 
 --- /task ---
 
@@ -199,8 +170,6 @@ title: Make the camera view isn't working for the scene
 Adjust the Tranform position and rotation of the camera to get the camera view that you want. 
 
 ![The Transform component for the camera in the Inspector window showing Position settings X = 0, Y = 3, Z = -10 and Rotation Y = -20. ](images/camera-transform.png)
-
-![An animated gif showing the camera following the player at a height that shows enough of the scene but still adds mystery. ](images/camera-follow.gif)
 
 --- /collapse ---
 
