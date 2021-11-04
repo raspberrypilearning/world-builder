@@ -21,9 +21,15 @@ title: Reuse your PlayerController script for a Cat or Raccoon
 
 Select your Player GameObject and then click 'Add Component' in the Inspector and choose 'Character controller'.
 
+![The Character controller component in the Inspector window with default settings.](images/character-controller.png)
+
 Find your IdleWalk Animator in the Project window, select the Player GameObject and drag the Animator to the Inspector. 
 
+![The Animator component in the Inspector window with 'IdleWalk' populated.](images/animator-component.png)
+
 Find your PlayerController script in the Project window, select the Player GameObject and drag the script to the Inspector. 
+
+![The Script component in the Inspector window with 'Player Controller' script populated.](images/script-component.png)
 
 **Tip:** You can also drag the Script and Animator from the Project window to the Player GameObject in the Hierarchy. Just be careful to drag it to the correct GameObject. 
 
@@ -34,16 +40,20 @@ Find your PlayerController script in the Project window, select the Player GameO
 --- collapse ---
 
 ---
-title: Add player movement with a Character Controller
+title:  Add player movement with a Character Controller
 ---
 
 Select your player GameObject and choose 'Add Cmponent' in the Inspector and add a 'Character Controller'.
 
+![The Animator component in the Inspector window with 'IdleWalk' populated.](images/animator-component.png)
+
 Adjust the collider settings so that the collider is same height as the player and Y center is half that height. Adjust the radius so that the collider covers your player. 
 
-The 'Character Controller' component add the `SimpleMove` method which you will need to call from `Update` on a script attached to the Player. 
+The 'Character Controller' component adds the `SimpleMove` method which you will need to call from `Update` on a script attached to the Player. 
 
 Click 'Add Component' then 'New script'. Name the script 'SimpleController' (or use a name specific to your character such as 'SnowmanController'.)
+
+![The Script component in the Inspector window with 'Player Controller' script populated.](images/snowman-controller.png)
 
 Click on the Script in the Inspector to find it in the Project window then open the script in your Code Editor. 
 
@@ -82,6 +92,8 @@ public class SimpleController : MonoBehaviour
 
 Adjust the speed settings to get the right effect for your character. 
 
+![An animated gif showing the Raccoon character moving around on the plane](images/animated-char.png)
+
 **Tip:** If you change the speed properties in the Inspector then those values will be used instead of the defaults. Default values are useful if you want to reuse the script in other scenes or projects. 
 
 --- collapse ---
@@ -111,7 +123,11 @@ title: Make the camera follow the player
 
 Drag the Main Camera to the Player in the Hierarchy so that it becomes a child. 
 
+![The Hierarchy window showing the Main Camera indented under the Player as a child GameObject.](images/camera-child.png)
+
 Adjust the Tranform position and rotation of the camera to get the camera view that you want. 
+
+![The Transform component for the camera in the Inspector window showing Position settings X = 0, Y = 3, Z = -10 and Rotation Y = -20. ](images/camera-transform.png)
 
 --- /collapse ---
 
