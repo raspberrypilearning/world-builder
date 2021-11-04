@@ -7,7 +7,7 @@ legend: Question 3 of 3
 
 3D worlds can be viewed from different perspectives. The Raccoon is the player character in this game. Which perspective is the game using?
 
-[A Raccoon player character viewed from behind.](images/perspective-view.png)
+![A Raccoon player character viewed from behind.](images/perspective-view.png)
 
 --- choices ---
 
