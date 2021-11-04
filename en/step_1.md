@@ -28,7 +28,8 @@ Navigate through the world in the example project. Think about the GameObjects i
 + Does the character fit the theme? 
 + How have the structures been created? 
 
-<mark>add example project</mark>
+[Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb/){:target=blank}.
+![](images/snow-world.png)
 
 --- /task ---
 
@@ -40,7 +41,8 @@ You are going to make some design decisions to build your world.
 
 Explore these example projects to get more ideas:
 
-<mark>add example projects</mark>
+[Maze World](https://raspberrypilearning.github.io/unity-webgl/maze_web/){:target=blank}.
+![](images/maze-world.png)
 
 --- /task ---
 --- /no-print ---
