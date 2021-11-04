@@ -5,7 +5,7 @@
 The player needs to be able to control your character so that they can move around your world. 
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![The Game view showing the Cat player character moving around on the plane with the camera following.](images/camera-movements.png){:width="300px"}
 </div>
 </div>
 
@@ -37,53 +37,7 @@ Find your PlayerController script in the Project window, select the Player GameO
 
 --- /collapse ---
 
---- collapse ---
-
----
-title:  Add player movement with a Character Controller
----
-
-Select your player GameObject and choose 'Add Cmponent' in the Inspector and add a 'Character Controller'.
-
-![The Animator component in the Inspector window with 'IdleWalk' populated.](images/animator-component.png)
-
-Adjust the collider settings so that the collider is same height as the player and Y center is half that height. Adjust the radius so that the collider covers your player. 
-
-The 'Character Controller' component adds the `SimpleMove` method which you will need to call from `Update` on a script attached to the Player. 
-
-Click 'Add Component' then 'New script'. Name the script 'SimpleController' (or use a name specific to your character such as 'SnowmanController'.)
-
-![The Script component in the Inspector window with 'Player Controller' script populated.](images/snowman-controller.png)
-
-Click on the Script in the Inspector to find it in the Project window then open the script in your Code Editor. 
-
-Add code to move your character based on keyboard input. 
-
-```
-public class SimpleController : MonoBehaviour
-{
-    public float moveSpeed = 3.0F; // default move speed
-    public float rotateSpeed = 3.0F; // default rotate speed
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        CharacterController controller = GetComponent<CharacterController>();
-        transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        float speed = moveSpeed * Input.GetAxis("Vertical");
-        controller.SimpleMove(forward * speed);
-    }
-}
-```
-
---- /collapse ---
+[[[unity-player-character-controller]]]
 
 --- /task ---
 
@@ -115,26 +69,14 @@ title: My character isn't moving
 
 You don't have to make the camera follow the player, but it often makes sense. 
 
---- collapse ---
-
----
-title: Make the camera follow the player
----
-
-Drag the Main Camera to the Player in the Hierarchy so that it becomes a child. 
-
-![The Hierarchy window showing the Main Camera indented under the Player as a child GameObject.](images/camera-child.png)
-
-Adjust the Tranform position and rotation of the camera to get the camera view that you want. 
-
-![The Transform component for the camera in the Inspector window showing Position settings X = 0, Y = 3, Z = -10 and Rotation Y = -20. ](images/camera-transform.png)
-
---- /collapse ---
+[[[unity-camera-follow-player]]]
 
 --- /task ---
 
 --- task ---
 **Test:** Play your scene and make sure the camera follows the Player. 
+
+![An animated gif showing the camera following the player from a slightly elevated position.](images/camera-movements.gif)
 
 You may want to adjust the camera settings later when you have your scenery in place. 
 
@@ -150,6 +92,8 @@ title: The camera is not following the player
 ---
 
 Make sure the Main Camera is a child object of the Player Game Object. 
+
+![The Hierarchy window showing the Main Camera indented under the Player as a child GameObject.](images/camera-child.png)
 
 --- /collapse ---
 

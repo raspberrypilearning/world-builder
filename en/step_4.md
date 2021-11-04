@@ -191,4 +191,24 @@ Make sure 'Play on Awake' is selected to automatically play the music and check 
 
 <mark>Could also add skybox ingredient</mark>
 
+--- task ---
+
+**Debug:**
+
+--- collapse ---
+
+---
+title: Make the camera view isn't working for the scene 
+---
+
+Adjust the Tranform position and rotation of the camera to get the camera view that you want. 
+
+![The Transform component for the camera in the Inspector window showing Position settings X = 0, Y = 3, Z = -10 and Rotation Y = -20. ](images/camera-transform.png)
+
+![An animated gif showing the camera following the player at a height that shows enough of the scene but still adds mystery. ](images/camera-follow.gif)
+
+--- /collapse ---
+
+--- /task ---
+
 --- save ---
