@@ -59,6 +59,8 @@ title: My character is walking in the air!
 
 Walking on surfaces is based on colliders, not on the visible parts of the GameObjects. If you get unusual behaviour then click on Gizmos in the Game view to view the colliders as you test your game. 
 
+![The Game view with 'Gizmos' drop down highlighted in the top-right corner of the view.](images/gizmos-game.png)
+
 Adjust the colliders so that the character can get close enough to the surface to walk on it. 
 
 --- /collapse ---
@@ -72,7 +74,7 @@ You can use the models we have provided, 3D Objects or a combination.
 
 ![Side by side images of the Scene view with a tree made of 3D shapes and a tree from a model.](images/different-trees.png)
 
-[unity-3d-objects]
+[[[unity-3d-objects]]]
 
 --- collapse ---
 
@@ -81,6 +83,8 @@ title: Add 3D Objects to a scene
 ---
 
 You can add spheres, cubes, cylinders and other 3D shapes to a scene. 
+
+![The 3D object menu showing available 3D objects including sphere, cube, plane, cylinders.](images/3d-object-list.png)
 
 Right-click in the Hierarchy and choose '3D Object' and then the shape of your choice. 
 
@@ -96,7 +100,17 @@ You can also right-click on a shape in the Hierarchy and add more shapes as chil
 title: Add a material to a GameObject
 ---
 
-To add a material to a GameObject, navigate to the material in the Model window and drag the material over the GameObject in the scene view. The new material will be applied immediately. 
+To add a material to a GameObject, navigate to the material in the Project window.
+
+![desc](images/material-project.png) 
+
+Drag the material over the GameObject in the scene view. 
+
+![desc](images/material-scene.png)
+
+The new material will be applied immediately. 
+
+![desc](images/material-component.png)
 
 --- /collapse ---
 
@@ -164,19 +178,7 @@ The DeathLoop and MenuTheme sounds are suitable for background music.
 
 <mark>Update if we add more or rename these.</mark>
 
---- collapse ---
-
----
-title: Add looping background music
----
-
-Background music can be attached to any GameObject, you could choose the floor plane, or the Player. 
-
-Select a GameObject and choose 'Add Component' and then 'Audio Source'. Click on the circle next to AudioClip and choose your music. 
-
-Make sure 'Play on Awake' is selected to automatically play the music and check the 'Loop' box to play the music repeatedly in a loop.
-
---- /collapse ---
+[[[unity-add-soundtrack]]]
 
 <mark>Would be better if we had a choice of music.</mark>
 
