@@ -5,7 +5,7 @@
 The player needs to be able to control your character so that they can move around your world. 
 </div>
 <div>
-![The Game view showing the Cat player character moving around on the plane with the camera following.](images/camera-movements.png){:width="300px"}
+![The Game view showing the Cat player character moving around on the plane with the camera following.](images/camera-movements.gif){:width="300px"}
 </div>
 </div>
 
@@ -46,7 +46,7 @@ Find your PlayerController script in the Project window, select the Player GameO
 
 Adjust the speed settings to get the right effect for your character. 
 
-![An animated gif showing the Raccoon character moving around on the plane](images/animated-char.png)
+![An animated gif showing the Raccoon character moving around on the plane](images/animated-char.gif)
 
 **Tip:** If you change the speed properties in the Inspector then those values will be used instead of the defaults. Default values are useful if you want to reuse the script in other scenes or projects. 
 
