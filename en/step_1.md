@@ -13,7 +13,7 @@ You will:
 + Build a 3D environment using 3D GameObjects and Particle Systems
 + Decide on camera settings and movement controls for your Player character
 
-![A strip of Game view images from four different projects. A snow scene, a maze, a minigame world and a car circuit.](images/examples.png)
+![A strip of Game view images from three different projects. A snow scene, a nature scene, and a maze.](images/examples.png)
 
 --- no-print ---
 
@@ -28,8 +28,8 @@ Navigate through the world in the example project. Think about the GameObjects i
 + Does the character fit the theme? 
 + How have the structures been created? 
 
-[Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb/){:target=blank}.
-![](images/snow-world.png)
+[Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target=blank}.
+![The Game view of a snow scene with snowman player created from 3D shapes, a white stone floor with large tiling and several brick walls coloured to look like bricks of ice.](images/snow-world.png){:width="400px"}
 
 --- /task ---
 
@@ -41,10 +41,14 @@ You are going to make some design decisions to build your world.
 
 Explore these example projects to get more ideas:
 
-[Maze World](https://raspberrypilearning.github.io/unity-webgl/maze_web/){:target=blank}.
-![](images/maze-world.png)
+[Maze World](https://raspberrypilearning.github.io/unity-webgl/maze_web){:target=blank}.
+![A player character with a top hat created from 3D shapes and a series of hotizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
+
+[Hills and trees](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target=blank}.
+![A Raccoon model player character on a green floor with green hills made from spheres and model trees.](images/hillsandtrees.png){:width="400px"}
 
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
@@ -53,12 +57,14 @@ Explore these example projects to get more ideas:
 
 You are going to make some design decisions to build your world.
 
-Use these example images to get more ideas:
+Explore these example projects to get more ideas:
 
-![](images/snow-world.png)
-![](images/maze-world.png)
-<mark> ![](images/car-circuit.png) </mark>
-<mark> ![](images/minigame.png) </mark>
+Snow scene: https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb
+![](images/snow-world.png){:width="400px"}
+Maze world: https://raspberrypilearning.github.io/unity-webgl/maze_web
+![](images/maze-world.png){:width="400px"}
+Hills and trees: https://raspberrypilearning.github.io/unity-webgl/HillsandTrees
+![](images/hillsandtrees.png){:width="400px"}
 
 --- /print-only ---
 
