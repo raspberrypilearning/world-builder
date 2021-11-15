@@ -5,7 +5,7 @@
 Now you can build out the map of your world with scenery and particle systems. 
 </div>
 <div>
-![](images/scenery-example.png){:width="300px"}
+![](images/scenery-example.gif){:width="300px"}
 </div>
 </div>
 

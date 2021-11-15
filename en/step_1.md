@@ -29,7 +29,7 @@ Navigate through the world in the example project. Think about the GameObjects i
 + How have the structures been created? 
 
 [Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target=blank}.
-![The Game view of a snow scene with snowman player created from 3D shapes, a white stone floor with large tiling and several brick walls coloured to look like bricks of ice.](images/snow-world.png)
+![The Game view of a snow scene with snowman player created from 3D shapes, a white stone floor with large tiling and several brick walls coloured to look like bricks of ice.](images/snow-world.png){:width="400px"}
 
 --- /task ---
 
@@ -42,10 +42,10 @@ You are going to make some design decisions to build your world.
 Explore these example projects to get more ideas:
 
 [Maze World](https://raspberrypilearning.github.io/unity-webgl/maze_web){:target=blank}.
-![A player character with a top hat created from 3D shapes and a series of hotizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png)
+![A player character with a top hat created from 3D shapes and a series of hotizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
 
 [Hills and trees](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target=blank}.
-![A Raccoon model player character on a green floor with green hills made from spheres and model trees.](images/hillsandtrees.png)
+![A Raccoon model player character on a green floor with green hills made from spheres and model trees.](images/hillsandtrees.png){:width="400px"}
 
 --- /task ---
 
