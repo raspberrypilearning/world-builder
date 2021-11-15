@@ -60,11 +60,11 @@ You are going to make some design decisions to build your world.
 Explore these example projects to get more ideas:
 
 Snow scene: https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb
-![](images/snow-world.png)
+![](images/snow-world.png){:width="400px"}
 Maze world: https://raspberrypilearning.github.io/unity-webgl/maze_web
-![](images/maze-world.png)
+![](images/maze-world.png){:width="400px"}
 Hills and trees: https://raspberrypilearning.github.io/unity-webgl/HillsandTrees
-![](images/hillsandtrees.png)
+![](images/hillsandtrees.png){:width="400px"}
 
 --- /print-only ---
 

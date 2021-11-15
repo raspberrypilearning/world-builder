@@ -4,15 +4,15 @@ If you are following the [Introduction to Unity](https://projects.raspberrypi.or
 
 --- print-only ---
 
-![ProjectName project](images/quest-seeker-project.png)
+Snow scene: https://raspberrypilearning.github.io/unity-webgl/SnowQuest
+![The Game view from the Snow scene project showing a snow raccoon offering a gather quest to the snowman player. The player can click the button to accept the quest to gather items for snow raccoon's ice dome.](images/snow-quest.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
-</div>
+[Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowQuest/){:target=blank}.
+![The Game view from the Snow scene project showing a snow raccoon offering a gather quest to the snowman player. The player can click the button to accept the quest to gather items for snow raccoon's ice dome.](images/snow-quest.png){:width="400px"}
 
 --- /no-print ---
 
