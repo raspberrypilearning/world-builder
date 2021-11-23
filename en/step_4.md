@@ -78,26 +78,7 @@ You can use the models we have provided, 3D Objects or a combination.
 
 [[[unity-3d-objects]]]
 
-
---- collapse ---
-
----
-title: Add a material to a GameObject
----
-
-To add a material to a GameObject, navigate to the material in the Project window.
-
-![desc](images/material-project.png) 
-
-Drag the material over the GameObject in the scene view. 
-
-![desc](images/material-scene.png)
-
-The new material will be applied immediately. 
-
-![desc](images/material-component.png)
-
---- /collapse ---
+[[[unity-material-with-texture]]]
 
 We have included Car, Tree and other models that could be used as scenery in your world. 
 
@@ -120,6 +101,8 @@ You can adjust the Transform of the GameObjects you create to change their posit
 [[[unity-scene-top-down]]]
 
 [[[unity-scene-navigation]]]
+
+[[[unity-physics-colliders]]]
 
 --- /task ---
 
@@ -164,7 +147,7 @@ The MusicLoop1 and MusicLoop2 sounds are suitable for background music.
 --- collapse ---
 
 ---
-title: Make the camera view isn't working for the scene 
+title: The camera view isn't working well for the scene 
 ---
 
 Adjust the Tranform position and rotation of the camera to get the camera view that you want. 
@@ -172,6 +155,8 @@ Adjust the Tranform position and rotation of the camera to get the camera view t
 ![The Transform component for the camera in the Inspector window showing Position settings X = 0, Y = 3, Z = -10 and Rotation Y = -20. ](images/camera-transform.png)
 
 --- /collapse ---
+
+[[[unity-collider-error]]]
 
 --- /task ---
 

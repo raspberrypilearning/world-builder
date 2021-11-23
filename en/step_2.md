@@ -161,6 +161,8 @@ This character has a 'Capsule' body with child GameObjects that are 'Spheres', a
 
 **Debug:**
 
+[[[unity-assign-material]]]
+
 --- collapse ---
 
 ---

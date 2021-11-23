@@ -9,6 +9,7 @@ Here are some ideas you could try:
 - Make more detailed scenery objects using 3D GameObjects with child objects. 
 - Experiment with particle systems to create interesting effects in different areas of your map. 
 - Adjust the player's movement and the camera angle to get the effect you want. 
+- Click '+' in the Hierarchy, choose 'Light' and add a 'Directional Light' to light up part of your world.
 
 <mark>Add a further example?</mark>
 
