@@ -46,7 +46,10 @@ Find your PlayerController script in the Project window, select the Player GameO
 
 [[[unity-animation]]]
 
+--- /task ---
+
 --- task ---
+
 **Test:** Try moving around in Playmode and make sure your character can move around. 
 
 Adjust the speed settings to get the right effect for your character. 
