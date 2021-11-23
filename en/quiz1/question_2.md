@@ -5,9 +5,9 @@
 legend: Question 2 of 3
 ---
 
-These two walls both use the same Asset to create a brick effect. What kind of Asset is it? 
+What kind of Asset is being selected in this screenshot?
 
-![Side by side images of two walls with brick effect. One wall is grey and the other wall orange. This is the only difference.](images/two-walls.png)
+![An Inspector window with 'Albedo' selected and a popup menu showing a gallery of assets. Examples in the gallery are BrickWallAlbedo and Car01Albedo.](images/inspector-list.png)
 
 --- choices ---
 
@@ -15,31 +15,25 @@ These two walls both use the same Asset to create a brick effect. What kind of A
 
   --- feedback ---
 
-  Yes, that's right. A Texture gives both the walls the same brick pattern. 
+  Yes, that's right. A Texture is a bitmap image such as a '.png' that can be created in an image editor. A Material uses a Texture, and other Assets and settings, to control the way a GameObject looks.
+
+  **Tip:** You can create a bitmap image in an image editor, save it and then use `Import New Asset...` to create a Texture. 
 
   --- /feedback ---
 
-- ( ) Material
+- () Material
 
   --- feedback ---
 
-  No, the two walls have different colours so they use different Materials. 
+  No, the assets in the screenshot are not materials themselves but they can be used in the creation of a material to control the way a GameObject looks. 
 
   --- /feedback ---
 
-- ( ) Cube
+- ( ) Image
 
   --- feedback ---
 
-  No, a Cube GameObject can be used to create a wall but it needs something else to add a pattern. 
-
-  --- /feedback ---
-
-- ( ) Mesh
-
-  --- feedback ---
-
-  No, a Mesh describes a 3D shape in Unity. Something else is used to create a pattern like the brick effect.  
+  No, Unity has a name for images that are imported into 3D projects to be wrapped around 3D objects.
 
   --- /feedback ---
 

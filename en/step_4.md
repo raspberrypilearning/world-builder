@@ -63,6 +63,8 @@ Walking on surfaces is based on colliders, not on the visible parts of the GameO
 
 Adjust the colliders so that the character can get close enough to the surface to walk on it. 
 
+If you create a sphere it will have a sphere collider so set the x, y and z scale to the same number. 
+
 --- /collapse ---
 
 --- /task ---
@@ -145,9 +147,7 @@ Background music is another way to add atmosphere to a world.
 
 --- task ---
 
-The DeathLoop and MenuTheme sounds are suitable for background music. 
-
-<mark>Update if we add more or rename these.</mark>
+The MusicLoop1 and MusicLoop2 sounds are suitable for background music. 
 
 [[[unity-add-soundtrack]]]
 
