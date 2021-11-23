@@ -139,7 +139,9 @@ If you use the Cat or Raccoon then decide which accessories you will enable and 
 title: Create a GameObject from 3D shapes
 ---
 
-Add a '3D Object' to your scene to represent the player. 
+Create an 'Empty' 3D object to represent the player. 
+
+![The Hierarchy window with right-click menu expanded and 'Create Empty' selected..](images/empty-object.png)
 
 Name the new GameObject 'Player' and add the 'Player' tag.  
 

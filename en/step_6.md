@@ -12,6 +12,10 @@ Here are some ideas you could try:
 
 <mark>Add a further example?</mark>
 
-<mark>Add link to community projects?</mark>
+Each example project in the [Introduction](.) has a ‘See Inside’ link for you to explore and look at the code to get ideas and see how they work.
+
+Take a look at some World builder projects created by community members in the Raspberry Pi Foundation’s gallery of [World builder Community Projects](https://wakelet.com/wake/LYLw1m_W-pGHMjCM0SGD7){:target=_blank}
+
+<mark> Update gallery link here when public</mark>
 
 --- save ---
