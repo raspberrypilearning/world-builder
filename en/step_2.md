@@ -93,21 +93,9 @@ Add or change the material for the plane to fit with the world you are designing
 
 [[[unity-material-with-texture]]]
 
---- collapse ---
-
----
-title: Add a material to a GameObject
----
-
-To add a material to a GameObject, navigate to the material in the Model window and drag the material over the GameObject in the scene view. The new material will be applied immediately. 
-
---- /collapse ---
-
-You can adjust the **Tiling** and other properties in the Inspector for the Material, or in the Inspector for each GameObject that uses the texture. Experiment to get a result you like!
-
 --- /task ---
 
-What kind of character will the Player be in your world? We have included some animal and car mdoel objects that you can choose from. Alternatively you can make a character from a 3D GameObject with child objects that move together. 
+What kind of character will the Player be in your world? We have included some animal and car model objects that you can choose from. Alternatively you can make a character from a 3D GameObject with child objects that move together. 
 
 ![A strip of images showing different characters. There are charaters built from 3D GameObjects, and characters from models such as the cat, raccoon and cars.](images/player-examples.png)
 
