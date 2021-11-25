@@ -58,7 +58,6 @@ Adjust the speed settings to get the right effect for your character.
 
 **Tip:** If you change the speed properties in the Inspector then those values will be used instead of the defaults. Default values are useful if you want to reuse the script in other scenes or projects. 
 
-
 [[[unity-console-error]]]
 
 --- collapse ---
@@ -84,6 +83,7 @@ You don't have to make the camera follow the player, but it often makes sense.
 --- /task ---
 
 --- task ---
+
 **Test:** Play your scene and make sure the camera follows the Player. 
 
 ![An animated gif showing the camera following the player from a slightly elevated position.](images/camera-follow-player.gif)
@@ -94,6 +94,7 @@ You may want to adjust the camera settings later when you have your scenery in p
 --- /task ---
 
 --- task ---
+
 **Debug:**
 
 Useful debug tips:
