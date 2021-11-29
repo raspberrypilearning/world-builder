@@ -133,15 +133,12 @@ Background music is another way to add atmosphere to a world.
 
 --- task ---
 
-The MusicLoop1 and MusicLoop2 sounds are suitable for background music. 
+The MusicLoop1 and MusicLoop2 sounds are suitable for background music, or you can add your own. 
 
 [[[unity-add-soundtrack]]]
 
-<mark>Would be better if we had a choice of music.</mark>
 
 --- /task ---
-
-<mark>Could also add skybox ingredient</mark>
 
 --- task ---
 

@@ -28,7 +28,7 @@ Select your Player GameObject and then click 'Add Component' in the Inspector an
 
 ![The Character controller component in the Inspector window with default settings.](images/character-controller.png)
 
-Find your IdleWalk Animator in the Project window, select the Player GameObject and drag the Animator to the Inspector. 
+Find your IdleWalk Animator in the Animation folder in the Project window, select the Player GameObject and drag the Animator to the Inspector. 
 
 ![The Animator component in the Inspector window with 'IdleWalk' populated.](images/animator-component.png)
 
@@ -37,8 +37,6 @@ Find your PlayerController script in the Project window, select the Player GameO
 ![The Script component in the Inspector window with 'Player Controller' script populated.](images/script-component.png)
 
 **Tip:** You can also drag the Script and Animator from the Project window to the Player GameObject in the Hierarchy. Just be careful to drag it to the correct GameObject. 
-
-<mark>Mention the specific folder location of these Assets when we finalise it.</mark>
 
 --- /collapse ---
 
@@ -68,7 +66,8 @@ title: My character isn't moving
 
 + Check that you are in Playmode with the green tint and you have the mouse cursor over the Game view. 
 + Check for any errors in the Console. If there are errors in GameObjects you are not using, such as NPCs, then you could delete the NPCs (you can copy them from another scene if you want them later.)
-+ Make sure that the SimpleController script is attached to the Player GameObject (and not a different GameObject). 
++ Make sure that the SimpleController script is attached to the Player GameObject (and not a different GameObject).
++ Make sure the parameter name used for the Animator is the same as the parameter name in your script. In the above example `isRunning` is used as the parameter name.
 
 --- /collapse ---
 

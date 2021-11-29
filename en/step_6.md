@@ -11,9 +11,7 @@ Here are some ideas you could try:
 - Adjust the player's movement and the camera angle to get the effect you want. 
 - Click '+' in the Hierarchy, choose 'Light' and add a 'Directional Light' to light up part of your world.
 
-<mark>Add a further example?</mark>
-
-Each example project in the [Introduction](.) has a ‘See Inside’ link for you to explore and look at the code to get ideas and see how they work.
+<iframe allowtransparency="true" width="710" height="450" src="https://world-builder-ms.rpfilt.repl.co" frameborder="0"></iframe>
 
 Take a look at some World builder projects created by community members in the Raspberry Pi Foundation’s gallery of [World builder Community Projects](https://wakelet.com/wake/LYLw1m_W-pGHMjCM0SGD7){:target=_blank}
 
