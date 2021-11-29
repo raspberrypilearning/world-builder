@@ -11,6 +11,7 @@ What will your world be like? The material you choose for the ground will set th
 </div>
 
 --- task ---
+
 Think about the kind of world you want to make: 
 
 + What kind of biome, habitat, geography or weather system will it have?
@@ -21,6 +22,7 @@ Think of a **name** for your world.
 --- /task ---
 
 --- task ---
+
 Open your Introduction to Unity project containing the scenes you created in the three Explore projects in this path. 
 
 --- /task ---
@@ -65,6 +67,7 @@ Delete any GameObjects that you don't want in your new world. If you think you m
 Your world or map will need a floor or ground for the player to walk on.
 
 --- task ---
+
 If you're starting from a new scene, add a plane for the floor. If you're working on an existing scene you can just change the material or size.
 
 ![The Scene view showing a large plane.](images/new-plane.png)

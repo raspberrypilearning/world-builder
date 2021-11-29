@@ -70,6 +70,7 @@ If you create a sphere it will have a sphere collider so set the x, y and z scal
 --- /task ---
 
 --- task ---
+
 Now add some scenery to your world.
 
 You can use the models we have provided, 3D Objects or a combination. 
@@ -107,6 +108,7 @@ You can adjust the Transform of the GameObjects you create to change their posit
 --- /task ---
 
 --- task ---
+
 **Test:** Play your scene and walk around. You might want to adjust the camera angle to work well with the scenery you've chosen. 
 
 ![The Transform component for the camera in the Inspector window showing Position settings X = 0, Y = 3, Z = -10 and Rotation Y = -20. ](images/camera-transform.png)
@@ -118,6 +120,7 @@ You can adjust the Transform of the GameObjects you create to change their posit
 Particle Systems are a great way to make your world come to life. 
 
 --- task ---
+
 Consider whether particle effects could make your world more interesting. They can be used to make objects sparkle, to create weather effects, to make a volcano errupt. 
 
 ![Animated gif showing the Game view of the snow scene with particle system providing a snow effect.](images/snow-particles.gif)
@@ -130,15 +133,12 @@ Background music is another way to add atmosphere to a world.
 
 --- task ---
 
-The MusicLoop1 and MusicLoop2 sounds are suitable for background music. 
+The MusicLoop1 and MusicLoop2 sounds are suitable for background music, or you can add your own. 
 
 [[[unity-add-soundtrack]]]
 
-<mark>Would be better if we had a choice of music.</mark>
 
 --- /task ---
-
-<mark>Could also add skybox ingredient</mark>
 
 --- task ---
 
