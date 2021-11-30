@@ -137,6 +137,8 @@ The MusicLoop1 and MusicLoop2 sounds are suitable for background music, or you c
 
 [[[unity-add-soundtrack]]]
 
+[[[unity-import-sounds]]]
+
 
 --- /task ---
 
