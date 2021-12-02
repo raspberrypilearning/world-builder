@@ -32,7 +32,7 @@ Think about the GameObjects including their shape, materials and positions.
 
 [Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target=_blank}.
 
-<iframe allowtransparency="true" width="750" height="500" src="https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="450" src="https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb" frameborder="0"></iframe>
 
 ![The Game view of a snow scene with snowman player created from 3D shapes, a white stone floor with large tiling and several brick walls coloured to look like bricks of ice.](images/snow-world.png){:width="400px"}
 
