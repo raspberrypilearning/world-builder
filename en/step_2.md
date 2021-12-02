@@ -27,6 +27,8 @@ Think of a **name** for your world.
 
 Open your Introduction to Unity project containing the scenes you created in the three Explore projects in this path. 
 
+Or
+
 Download the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. 
 
 --- /task ---
