@@ -96,6 +96,8 @@ You can change the X and Z Scale properties for the Plane's Transform in the Sce
 
 --- /collapse ---
 
+[[[unity-terrain-object]]]
+
 Add or change the material for the plane to fit with the world you are designing.
 
 ![The Scene view showing a large plane with 'Yellow Stone' material.](images/yellow-stone-plane.png)
