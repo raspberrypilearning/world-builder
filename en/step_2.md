@@ -23,7 +23,13 @@ Think of a **name** for your world.
 
 --- task ---
 
+**Choose:**
+
 Open your Introduction to Unity project containing the scenes you created in the three Explore projects in this path. 
+
+Or
+
+Download the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. 
 
 --- /task ---
 
@@ -31,7 +37,7 @@ Open your Introduction to Unity project containing the scenes you created in the
 
 **Choose:**
 
-You can either create a new empty scene in the project, or save a copy of your Non-player character scene with a new name. 
+You can either create a new empty scene in the project, or save a copy of your Star collector scene with a new name. 
 
 Name the new scene with the name of your world. 
 
