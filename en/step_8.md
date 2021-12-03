@@ -10,9 +10,7 @@ Snow scene: https://raspberrypilearning.github.io/unity-webgl/SnowQuest
 --- /print-only ---
 
 --- no-print ---
-
-[Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowQuest/){:target=blank}.
-![The Game view from the Snow scene project showing a snow raccoon offering a gather quest to the snowman player. The player can click the button to accept the quest to gather items for snow raccoon's ice dome.](images/snow-quest.png){:width="400px"}
+<iframe allowtransparency="true" width="710" height="450" src="https://raspberrypilearning.github.io/unity-webgl/SnowQuest/" frameborder="0"></iframe>
 
 --- /no-print ---
 
