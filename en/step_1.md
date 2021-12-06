@@ -46,7 +46,7 @@ You are going to make some design decisions to build your world.
 
 Explore these example projects to get more ideas:
 
-[Maze World](https://raspberrypilearning.github.io/unity-webgl/maze_web){:target=_blank}.
+[Maze World](https://raspberrypilearning.github.io/unity-webgl/maze-world-builder){:target=_blank}.
 ![A player character with a top hat created from 3D shapes and a series of hotizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
 
 [Hills and trees](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target=_blank}.
@@ -66,7 +66,7 @@ Explore these example projects to get more ideas:
 
 Snow scene: https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb
 ![](images/snow-world.png){:width="400px"}
-Maze world: https://raspberrypilearning.github.io/unity-webgl/maze_web
+Maze world: https://raspberrypilearning.github.io/unity-webgl/maze-world-builder
 ![](images/maze-world.png){:width="400px"}
 Hills and trees: https://raspberrypilearning.github.io/unity-webgl/HillsandTrees
 ![](images/hillsandtrees.png){:width="400px"}
