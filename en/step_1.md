@@ -2,7 +2,7 @@
 
 Use your Unity skills to design and build an 3D world with a player character of your choice. 
 
-You will build on this world in the next two projects in the [Introduction to Unity path](https://projects.raspberrypi.org/en/raspberrypi/unity-intro).
+You will build on this world in the next two projects in the [Introduction to Unity path](https://projects.raspberrypi.org/en/raspberrypi/unity-intro){:target='_blank'}.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**World building**</span> is imagining an environment and then making it come to life. World building can involve storytelling, visual design, map making and character design. In Unity you can imagine a 3D world and then make it so that others can experience it. 
@@ -30,7 +30,7 @@ Think about the GameObjects including their shape, materials and positions.
 + Does the character fit the theme? 
 + How have the structures been created? 
 
-[Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target=_blank}.
+[Snow Scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target='_blank'}.
 
 <iframe allowtransparency="true" width="710" height="450" src="https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb" frameborder="0"></iframe>
 
@@ -46,10 +46,10 @@ You are going to make some design decisions to build your world.
 
 Explore these example projects to get more ideas:
 
-[Maze World](https://raspberrypilearning.github.io/unity-webgl/maze-world-builder){:target=_blank}.
+[Maze World](https://raspberrypilearning.github.io/unity-webgl/maze-world-builder){:target='_blank'}.
 ![A player character with a top hat created from 3D shapes and a series of hotizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
 
-[Hills and trees](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target=_blank}.
+[Hills and trees](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target='_blank'}.
 ![A Raccoon model player character on a green floor with green hills made from spheres and model trees.](images/hillsandtrees.png){:width="400px"}
 
 --- /task ---
