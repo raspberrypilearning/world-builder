@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to Unity](https://projects.raspberrypi.org/en/raspberrypi/unity-intro) path, you can move on to the [Quest seeker](https://projects.raspberrypi.org/en/projects/quest-seeker) project. In this project, you will make minigame or story with NPCs that give the player quests to complete.
+If you are following the [Introduction to Unity](https://projects.raspberrypi.org/en/raspberrypi/unity-intro){:target='_blank'} path, you can move on to the [Quest seeker](https://projects.raspberrypi.org/en/projects/quest-seeker){:target='_blank'} project. In this project, you will make minigame or story with NPCs that give the player quests to complete.
 
 --- print-only ---
 

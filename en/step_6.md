@@ -13,6 +13,6 @@ Here are some ideas you could try:
 
 <iframe allowtransparency="true" width="710" height="450" src="https://world-builder-ms.rpfilt.repl.co" frameborder="0"></iframe>
 
-Take a look at some World builder projects created by community members in the Raspberry Pi Foundation’s gallery of [World builder Community Projects](https://wke.lt/w/s/IlaRMQ){:target=_blank}
+Take a look at some World builder projects created by community members in the Raspberry Pi Foundation’s gallery of [World builder Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}
 
 --- save ---
