@@ -6,7 +6,7 @@ What will your world be like? The material you choose for the ground will set th
 
 </div>
 <div>
-![The Scene view showing a character made from 3D GameObjects with coloured materials. The Characher is standing on a plane.](images/character-plane.png){:width="300px"}
+![The Scene view showing a character made from 3D GameObjects with coloured materials. The Character is standing on a plane.](images/character-plane.png){:width="300px"}
 </div>
 </div>
 
@@ -14,7 +14,7 @@ What will your world be like? The material you choose for the ground will set th
 
 Think about the kind of world you want to make: 
 
-+ What kind of biome, habitat, geography or weather system will it have?
++ What kind of biome, habitat, geography, or weather system will it have?
 + Will it be based on somewhere in the real world, an imagined planet, or based on a book or movie you enjoy?
 
 Think of a **name** for your world. 
@@ -48,9 +48,9 @@ Name the new scene with the name of your world.
 title: Create a new scene
 ---
 
-Select 'File' then 'New Scene'. 
+Select **File** then **New Scene**. 
 
-![The expanded file menu showing the 'New Scene' option](images/new-scene.png)
+![The expanded file menu showing the 'New Scene' option.](images/new-scene.png)
 
 --- /collapse ---
 
@@ -60,11 +60,11 @@ Select 'File' then 'New Scene'.
 title: Save a copy of an existing scene
 ---
 
-Right-click on your NPC scene and choose 'Save As'. 
+Right-click on your NPC scene and choose **Save As**. 
 
 Delete any GameObjects that you don't want in your new world. If you think you might want to use a GameObject later, you can deactivate it by unchecking the box next to its name in the Inspector. 
 
-![The inspector window for the NPC Dog GameObject with the active box unchecked.](images/dog-inactive.png)
+![The Inspector window for the NPC Dog GameObject with the active box unchecked.](images/dog-inactive.png)
 
 --- /collapse ---
 
@@ -74,7 +74,7 @@ Your world or map will need a floor or ground for the player to walk on.
 
 --- task ---
 
-If you're starting from a new scene, add a plane for the floor. If you're working on an existing scene you can just change the material or size.
+If you're starting from a new scene, add a plane for the floor. If you're working on an existing scene, you can just change the material or size.
 
 ![The Scene view showing a large plane.](images/new-plane.png)
 
@@ -84,21 +84,21 @@ If you're starting from a new scene, add a plane for the floor. If you're workin
 title: Add a plane
 ---
 
-Right-click on your scene in the Hierarchy and select 'GameObject' then '3D Object' then 'Plane'. 
+Right-click on your scene in the Hierarchy window and select **GameObject** then **3D Object** then **Plane**. 
 
-![The 3D object menu with 'plane' highlihted.](images/3D-plane.png)
+![The 3D object menu with 'plane' highlighted.](images/3D-plane.png)
 
-The default size for the plane is 10m x 10m. Unity uses metres as the unit of measurement.
+The default size for the plane is 10m × 10m. Unity uses metres as the unit of measurement.
 
-You can change the X and Z Scale properties for the Plane's Transform in the Scene view or in the Inspector. 
+You can change the x and z Scale properties for the Plane's Transform in the Scene view or in the Inspector. 
 
-![The transform component showing X and Z scale properies with value '4'.](images/plane-transform.png)
+![The Transform component showing x and z scale properies with the value 4.](images/plane-transform.png)
 
 --- /collapse ---
 
 [[[unity-terrain-object]]]
 
-Add or change the material for the plane to fit with the world you are designing.
+Add or change the material of the plane to fit with the world you are designing.
 
 ![The Scene view showing a large plane with 'Yellow Stone' material.](images/yellow-stone-plane.png)
 
@@ -106,9 +106,9 @@ Add or change the material for the plane to fit with the world you are designing
 
 --- /task ---
 
-What kind of character will the Player be in your world? We have included some animal and car model objects that you can choose from. Alternatively you can make a character from a 3D GameObject with child objects that move together. 
+What kind of character will the Player be in your world? We have included some animal and car model objects that you can choose from. Alternatively, you can make a character from a 3D GameObject with child objects that move together. 
 
-![A strip of images showing different characters. There are charaters built from 3D GameObjects, and characters from models such as the cat, raccoon and cars.](images/player-examples.png)
+![A strip of images showing different characters. There are characters built from 3D GameObjects, and characters from models such as the cat, raccoon, and cars.](images/player-examples.png)
 
 --- task ---
 
@@ -128,17 +128,17 @@ title: Create a GameObject from a model
 
 Navigate to the Model you want to use in the Project window. 
 
-Drag the model to your scene. 
+Drag the Model to your scene. 
 
-![The Scene view with the raccoon model added.](images/raccoon-character.png)
+![The Scene view with the Raccoon model added.](images/raccoon-character.png)
 
-Name the new GameObject 'Player' and add the 'Player' tag. 
+Name the new GameObject `Player` and add the Player tag. 
 
 ![The Inspector window for the Player character. The model has been remnamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
 
-Adjust the start position of the Player's transform. 
+Adjust the start position of the Player's Transform. 
 
-If you use the Cat or Raccoon then decide which accessories you will enable and disable the others by unchecking the box next to their name in the Inspector.
+If you use the Cat or Raccoon, decide which accessories you will enable, then disable the others by unchecking the box next to their name in the Inspector.
 
 ![The Player with 'ConstructionGearMesh' and 'PartHatandBowtie' disabled.](images/child-disabled.png)
 
@@ -152,15 +152,15 @@ title: Create a GameObject from 3D shapes
 
 Create an 'Empty' 3D object to represent the player. 
 
-![The Hierarchy window with right-click menu expanded and 'Create Empty' selected..](images/empty-object.png)
+![The Hierarchy window with right-click menu expanded and 'Create Empty' selected.](images/empty-object.png)
 
-Name the new GameObject 'Player' and add the 'Player' tag.  
+Name the new GameObject `Player` and add the Player tag.  
 
-![The Inspector window for the Player character. The model has been remnamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
+![The Inspector window for the Player character. The model has been renamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
 
-Right-click on the Player and add other 3D shapes from 'Create' -> '3D Object' as child game objects. The child objects will move with the Player GameObject. 
+Right-click on the Player and add other 3D shapes from **Create** > **3D Object** as child GameObjects. The child objects will move with the Player GameObject. 
 
-This character has a 'Capsule' body with child GameObjects that are 'Spheres', and 'Cylinders'. The shapes have been renames to represent their body part. 
+This character has a 'Capsule' body with child GameObjects that are 'Spheres' and 'Cylinders'. The shapes have been renamed to represent their body part. 
 
 ![A 3D shape character in Scene view and the Hierarchy window showing the 3D shape child objects that make up the whole character.](images/3d-shape-character.png){:width="400px"}
 
@@ -180,9 +180,9 @@ This character has a 'Capsule' body with child GameObjects that are 'Spheres', a
 title: The material texture is too big or small
 ---
 
-You can change the **Tiling** properties for the Material, or for a material used in a GameObject. Choose bigger tiling numbers to create a smaller pattern.
+You can change the **Tiling** properties for the material, or for a material used in a GameObject. Choose bigger tiling numbers to create a smaller pattern.
 
-![the Inspector window showing Tiling size set to '50'.](images/tiling-component.png)
+![The Inspector window showing Tiling size set to '50'.](images/tiling-component.png)
 
 ![The Game view plane with Stone Wall material tiled at 1 (very large stones), 50 (medium sized stones), and 100 (small stones).](images/tiling.png)
 
@@ -194,7 +194,7 @@ You can change the **Tiling** properties for the Material, or for a material use
 title: I deleted the Camera!
 ---
 
-If your camera is a child of the Player and you delete the Player then you will also delete the Camera.
+If your Camera is a child of the Player and you delete the Player, then you will also delete the Camera.
 
 To add a new Camera, right-click in the Hierarchy and choose Camera. 
 
