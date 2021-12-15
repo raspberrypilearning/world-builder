@@ -1,6 +1,6 @@
 ## Introduction
 
-Use your Unity skills to design and build an 3D world with a Player character of your choice. 
+Use your Unity skills to design and build a 3D world with a Player character of your choice. 
 
 You will build on this world in the next two projects in the [Introduction to Unity path](https://projects.raspberrypi.org/en/raspberrypi/unity-intro){:target='_blank'}.
 
@@ -48,10 +48,10 @@ You are going to make some design decisions to build your world.
 
 Explore these example projects to get more ideas:
 
-[Maze world](https://raspberrypilearning.github.io/unity-webgl/maze-world-builder){:target='_blank'}.
+[Try the Maze world](https://raspberrypilearning.github.io/unity-webgl/maze-world-builder){:target='_blank'}.
 ![A player character with a top hat created from 3D shapes and a series of hotizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
 
-[Hills and trees](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target='_blank'}.
+[Try the Hills and trees world](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target='_blank'}.
 ![A Raccoon model player character on a green floor with green hills made from spheres and model trees.](images/hillsandtrees.png){:width="400px"}
 
 --- /task ---

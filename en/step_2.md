@@ -29,7 +29,11 @@ Open your Introduction to Unity project containing the scenes you created in the
 
 Or
 
-Download the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. 
+Download and unzip the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. Create a new '3D' Unity project and import the starter package.
+
+[[[unity-create-3d-project]]]
+
+[[[unity-importing-a-package]]]
 
 --- /task ---
 

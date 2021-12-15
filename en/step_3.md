@@ -21,7 +21,7 @@ The player needs to be able to control your character so that they can move arou
 --- collapse ---
 
 ---
-title: Reuse your PlayerController script for a Cat or Raccoon
+title: Add the PlayerController script for a Cat, Raccoon or Rat
 ---
 
 Select your Player GameObject and then click **Add Component** in the Inspector and choose **Character Controller**.
@@ -32,11 +32,64 @@ Find your IdleWalk Animator in the Animation folder in the Project window, selec
 
 ![The Animator component in the Inspector window with 'IdleWalk' populated.](images/animator-component.png)
 
-Find your PlayerController script in the Project window, select the Player GameObject and drag the script to the Inspector. 
+If you started from a project containing the PlayerController script then you can add it to a new character GameObject. Find the PlayerController script in the Project window, select the Player GameObject and drag the script to the Inspector. 
 
 ![The Script component in the Inspector window with 'Player Controller' script populated.](images/script-component.png)
 
 **Tip:** You can also drag the Script and Animator from the Project window to the Player GameObject in the Hierarchy. Just be careful to drag it to the correct GameObject. 
+
+If you don't have the PlayerController script then select your character GameObject and click 'Add Component' and create a script called 'PlayerController' with this script:
+
+--- code ---
+---
+language: csharp
+filename: PlayerController.cs
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float speed = 3.0f;
+    public float rotateSpeed = 1.0f;
+    Animator anim;
+
+    void Start()
+    {
+        anim = gameObject.GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        float moveSpeed = speed;
+
+        if (Input.GetAxis("Vertical") > 0)
+        {
+            anim.SetBool("forward", true);
+        }
+        else if (Input.GetAxis("Vertical") < 0)
+        {
+            anim.SetBool("forward", false);
+            moveSpeed *= 0.5f;
+        }
+        else
+        {
+            anim.SetBool("forward", false);
+        }
+
+        CharacterController controller = GetComponent<CharacterController>();
+        transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
+        Vector3 forward = transform.TransformDirection(Vector3.forward);
+        float curSpeed = moveSpeed * Input.GetAxis("Vertical");
+        controller.SimpleMove(forward * curSpeed);
+    }
+}
+
+--- /code ---
 
 --- /collapse ---
 
