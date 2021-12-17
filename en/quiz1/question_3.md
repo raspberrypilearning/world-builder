@@ -5,7 +5,7 @@
 legend: Question 3 of 3
 ---
 
-3D worlds can be viewed from different perspectives. The Raccoon is the player character in this game. Which perspective is the game using?
+3D worlds can be viewed from different perspectives. The Raccoon is the Player character in this game. Which perspective is the game using?
 
 ![A Raccoon player character viewed from behind.](images/perspective-view.png)
 
@@ -15,7 +15,7 @@ legend: Question 3 of 3
 
 
   --- feedback ---
-No, First person is where you see the world through the eyes of the player. You might see their hands or arms, or what they are holding, but you don't see the whole character. 
+No, first person is where you see the world through the eyes of the player. You might see their hands or arms, or what they are holding, but you don't see the whole character. 
 
   --- /feedback ---
 
@@ -27,17 +27,17 @@ No, second person is where you see the world through the eyes of another charact
 
   --- /feedback ---
 
-- (x) Third Person
+- (x) Third person
 
 
   --- feedback ---
-Yes, third person is where you see the world through a camera that looks at and follow the player. You can create a third person perspective by making the Main Camera a child of the player GameObject. 
+Yes, third person is where you see the world through a camera that looks at and follows the Player. You can create a third person perspective by making the Main Camera a child of the Player GameObject. 
   --- /feedback ---
 
-- ( ) Top Down
+- ( ) Top down
 
   --- feedback ---
-No, Top Down is where you see the world from a birds-eye view, looking down on the player and other GameObjects. 
+No, top down is where you see the world from a birds-eye view, looking down on the Player and other GameObjects. 
   --- /feedback ---
 
 --- /choices ---
