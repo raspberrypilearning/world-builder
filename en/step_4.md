@@ -17,7 +17,7 @@ Use 3D shapes to add steps or hills to your world to create different levels for
 
 --- task ---
 
-The 'Character Controller' component has properties that allow the character to walk up slopes and steps. 
+The Character Controller component has properties that allow the character to walk up slopes and steps. 
 
 ![The Character Controller component in the Inspector window with 'Slope limit' and 'Step offset' properties.](images/slopes-steps.png)
 
