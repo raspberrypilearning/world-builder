@@ -29,7 +29,7 @@ Open your Introduction to Unity project containing the scenes you created in the
 
 Or
 
-Download and unzip the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. Create a new '3D' Unity project and import the starter package.
+Download and unzip the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. Create a new 3D Unity project and import the starter package.
 
 [[[unity-create-3d-project]]]
 
@@ -64,7 +64,7 @@ Select **File** then **New Scene**.
 title: Save a copy of an existing scene
 ---
 
-Right-click on your NPC scene and choose **Save As**. 
+Right-click on your **NPC scene** and choose **Save As**. 
 
 Delete any GameObjects that you don't want in your new world. If you think you might want to use a GameObject later, you can deactivate it by unchecking the box next to its name in the Inspector. 
 
