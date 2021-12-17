@@ -1,10 +1,10 @@
 ## Reflection
 
-Well done, you have learned a lot!
+Well done, you have learnt a lot!
 
-Answer the three questions below to reflect on what you've learned.
+Answer the three questions below to reflect on what you've learnt.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want.
 
 --- question ---
 
@@ -16,7 +16,7 @@ Imagine you have been asked to create a new video game. How could you get a grap
 
 --- choices ---
 
-- ( ) Combine 3D Objects to design a character from geometric shapes. 
+- ( ) Combine 3D objects to design a character from geometric shapes 
 
   --- feedback ---
 
@@ -24,7 +24,7 @@ Imagine you have been asked to create a new video game. How could you get a grap
 
   --- /feedback ---
 
-- ( ) Create a model in a 3D modelling tool and import it into Unity.
+- ( ) Create a model in a 3D modelling tool and import it into Unity
 
   --- feedback ---
 
@@ -32,7 +32,7 @@ You can create models using a 3D modelling tool such as Blender but that's not t
 
   --- /feedback ---
 
-- ( ) Use a Unity model asset that someone else has created and you have permission to reuse.
+- ( ) Use a Unity model asset that someone else has created and you have permission to reuse
 
   --- feedback ---
 
@@ -40,7 +40,7 @@ You can use Unity model assets created by others if you have permission. The Uni
 
   --- /feedback ---
 
-- (x) All of the above.
+- (x) All of the above
 
   --- feedback ---
 Yes, these are all ways to find or create a graphical character to use in Unity. Some people specialise in developing 3D models while others prefer to use models created by other people.
