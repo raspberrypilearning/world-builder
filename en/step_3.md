@@ -12,8 +12,8 @@ The player needs to be able to control your character so that they can move arou
 --- task ---
 
 **Choose:** How will your player move?
-+ If you have chosen the Cat or Raccoon model, then you can reuse your 'PlayerController' movement script and 'IdleWalk' animator. 
-+ If you have chosen the Car01 or Car02 model, you can reuse your 'PlayerController' movement script and use the matching Car1 or Car2 animators.
++ If you have chosen the Cat or Raccoon model, then you can reuse your PlayerController movement script and IdleWalk animator. 
++ If you have chosen the Car01 or Car02 model, you can reuse your PlayerController movement script and use the matching Car1 or Car2 animators.
 + If you have created your own Player, then you can create your own simple movement script without animation. 
 
 ![An animated gif showing the Raccoon character moving around on the plane.](images/animated-char.gif)
@@ -21,22 +21,75 @@ The player needs to be able to control your character so that they can move arou
 --- collapse ---
 
 ---
-title: Reuse your PlayerController script for a Cat or Raccoon
+title: Add the PlayerController script for a Cat, Raccoon, or Rat
 ---
 
-Select your Player GameObject and then click **Add Component** in the Inspector and choose **Character Controller**.
+Select your **Player GameObject** and then click **Add Component** in the Inspector and choose **Character Controller**.
 
 ![The Character Controller component in the Inspector window with default settings.](images/character-controller.png)
 
-Find your IdleWalk Animator in the Animation folder in the Project window, select the Player GameObject and drag the Animator to the Inspector. 
+Find your **IdleWalk Animator** in the Animation folder in the Project window, select the **Player GameObject** and drag the **Animator** to the Inspector. 
 
 ![The Animator component in the Inspector window with 'IdleWalk' populated.](images/animator-component.png)
 
-Find your PlayerController script in the Project window, select the Player GameObject and drag the script to the Inspector. 
+If you started from a project containing the PlayerController script, then you can add it to a new character GameObject. Find the **PlayerController** script in the Project window, select the **Player GameObject** and drag the Script to the Inspector. 
 
 ![The Script component in the Inspector window with 'Player Controller' script populated.](images/script-component.png)
 
 **Tip:** You can also drag the Script and Animator from the Project window to the Player GameObject in the Hierarchy. Just be careful to drag it to the correct GameObject. 
+
+If you don't have the PlayerController script, then select your **character GameObject** and click **Add Component** and create a script called `PlayerController` with this script:
+
+--- code ---
+---
+language: csharp
+filename: PlayerController.cs
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float speed = 3.0f;
+    public float rotateSpeed = 1.0f;
+    Animator anim;
+
+    void Start()
+    {
+        anim = gameObject.GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        float moveSpeed = speed;
+
+        if (Input.GetAxis("Vertical") > 0)
+        {
+            anim.SetBool("forward", true);
+        }
+        else if (Input.GetAxis("Vertical") < 0)
+        {
+            anim.SetBool("forward", false);
+            moveSpeed *= 0.5f;
+        }
+        else
+        {
+            anim.SetBool("forward", false);
+        }
+
+        CharacterController controller = GetComponent<CharacterController>();
+        transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
+        Vector3 forward = transform.TransformDirection(Vector3.forward);
+        float curSpeed = moveSpeed * Input.GetAxis("Vertical");
+        controller.SimpleMove(forward * curSpeed);
+    }
+}
+
+--- /code ---
 
 --- /collapse ---
 
@@ -64,8 +117,8 @@ Adjust the speed settings to get the right effect for your character.
 title: My character isn't moving
 ---
 
-+ Check that you are in Play mode with the green tint and you have the mouse cursor over the Game view. 
-+ Check for any errors in the Console. If there are errors in GameObjects you are not using, such as NPCs, then you could delete the NPCs (you can copy them from another scene if you want them later.)
++ Check that you are in Play mode with the colour tint and you have the mouse cursor over the Game view. 
++ Check for any errors in the Console. If there are errors in GameObjects you are not using, such as NPCs, then you could delete the NPCs (you can copy them from another scene if you want them later).
 + Make sure that the SimpleController script is attached to the Player GameObject (and not a different GameObject).
 + Make sure the parameter name used for the Animator is the same as the parameter name in your script. In the above example `isRunning` is used as the parameter name.
 
@@ -75,7 +128,7 @@ title: My character isn't moving
 
 --- task ---
 
-You don't have to make the camera follow the player, but it often makes sense. 
+You don't have to make the camera follow the Player, but it often makes sense. 
 
 [[[unity-camera-follow-player]]]
 
