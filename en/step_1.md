@@ -75,7 +75,7 @@ Hills and trees: https://raspberrypilearning.github.io/unity-webgl/HillsandTrees
 
 --- /print-only ---
 
-To explore how these projects have been made, download and unzip the [Unity packages](http://rpf.io/p/en/world-builder-get){:target='_blank'} then import each one into an new 3D Unity project. 
+To explore how these projects have been made, download and unzip the [Unity packages](https://rpf.io/p/en/world-builder-get){:target='_blank'} then import each one into an new 3D Unity project. 
 
 [[[unity-create-3d-project]]]
 
