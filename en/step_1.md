@@ -32,7 +32,7 @@ Think about the GameObjects, including their shape, materials, and positions.
 + Does the character fit the theme? 
 + How have the structures been created? 
 
-[Snow scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target='_blank'}.
+[Snow scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target='_blank'} 
 
 <iframe allowtransparency="true" width="710" height="450" src="https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb" frameborder="0"></iframe>
 
@@ -75,3 +75,8 @@ Hills and trees: https://raspberrypilearning.github.io/unity-webgl/HillsandTrees
 
 --- /print-only ---
 
+To explore how these projects have been made, download and unzip the [Unity packages](https://rpf.io/p/en/world-builder-get){:target='_blank'} then import each one into an new 3D Unity project. 
+
+[[[unity-create-3d-project]]]
+
+[[[unity-importing-a-package]]]
