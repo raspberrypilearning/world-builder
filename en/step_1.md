@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Use your Unity skills to design and build a 3D world with a Player character of your choice. 
 
@@ -19,12 +19,12 @@ You will:
 
 --- no-print ---
 
+### Play ▶️
+
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-
-### Try it 
 
 Click on the embedded project and navigate through the example world. 
 
@@ -40,7 +40,7 @@ Think about the GameObjects, including their shape, materials, and positions.
 
 --- /task ---
 
-### Get inspiration 
+### Get ideas 💭
 
 You are going to make some design decisions to build your world.
 
@@ -60,7 +60,7 @@ Explore these example projects to get more ideas:
 
 --- print-only ---
 
-### Get inspiration 
+### Get ideas 💭 
 
 You are going to make some design decisions to build your world.
 
