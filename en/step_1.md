@@ -49,7 +49,7 @@ You are going to make some design decisions to build your world.
 Explore these example projects to get more ideas:
 
 [Try the Maze world](https://raspberrypilearning.github.io/unity-webgl/maze-world-builder){:target='_blank'}.
-![A player character with a top hat created from 3D shapes and a series of hotizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
+![A player character with a top hat created from 3D shapes and a series of horizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
 
 [Try the Hills and trees world](https://raspberrypilearning.github.io/unity-webgl/HillsandTrees){:target='_blank'}.
 ![A Raccoon model player character on a green floor with green hills made from spheres and model trees.](images/hillsandtrees.png){:width="400px"}

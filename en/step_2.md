@@ -92,11 +92,11 @@ Right-click on your scene in the Hierarchy window and select **GameObject** then
 
 ![The 3D object menu with 'plane' highlighted.](images/3D-plane.png)
 
-The default size for the plane is 10m × 10m. Unity uses metres as the unit of measurement.
+The default size for the plane is 10m × 10m. Unity uses meters as the unit of measurement.
 
 You can change the x and z Scale properties for the Plane's Transform in the Scene view or in the Inspector. 
 
-![The Transform component showing x and z scale properies with the value 4.](images/plane-transform.png)
+![The Transform component showing x and z scale properties with the value 4.](images/plane-transform.png)
 
 --- /collapse ---
 
@@ -138,7 +138,7 @@ Drag the Model to your scene.
 
 Name the new GameObject `Player` and add the Player tag. 
 
-![The Inspector window for the Player character. The model has been remnamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
+![The Inspector window for the Player character. The model has been renamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
 
 Adjust the start position of the Player's Transform. 
 

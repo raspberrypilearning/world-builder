@@ -12,7 +12,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-Imagine you have been asked to create a new video game. How could you get a graphical character for your player GameObject?
+Imagine you have been asked to create a new video game. How could you get a visual character for your player GameObject?
 
 --- choices ---
 
@@ -43,7 +43,7 @@ You can use Unity model assets created by others if you have permission. The Uni
 - (x) All of the above
 
   --- feedback ---
-Yes, these are all ways to find or create a graphical character to use in Unity. Some people specialise in developing 3D models while others prefer to use models created by other people.
+Yes, these are all ways to find or create a visual character to use in Unity. Some people specialise in developing 3D models while others prefer to use models created by other people.
 
   --- /feedback ---
 
