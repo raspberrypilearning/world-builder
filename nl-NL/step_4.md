@@ -121,7 +121,7 @@ Particle Systems are a great way to make your world come to life.
 
 --- task ---
 
-Consider whether particle effects could make your world more interesting. They can be used to make objects sparkle, to create weather effects, or to make a volcano errupt.
+Consider whether particle effects could make your world more interesting. They can be used to make objects sparkle, to create weather effects, or to make a volcano erupt.
 
 ![Animated gif showing the Game view of the snow scene with particle system providing a snow effect.](images/snow-particles.gif)
 
@@ -152,7 +152,7 @@ The MusicLoop1 and MusicLoop2 sounds are suitable for background music, or you c
 title: The camera view isn't working well for the scene
 ---
 
-Adjust the Tranform position and rotation of the camera to get the camera view that you want.
+Adjust the Transform position and rotation of the camera to get the camera view that you want.
 
 ![The Transform component for the camera in the Inspector window showing Position settings x = 0, y = 3, z = -10 and Rotation y = -20.](images/camera-transform.png)
 
