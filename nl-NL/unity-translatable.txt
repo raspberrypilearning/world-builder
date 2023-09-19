@@ -1,10 +1,10 @@
 snelheid
 
-draaisnelheid
+draaiSnelheid
 
 anim
 
-bewegingssnelheid
+bewegingsSnelheid
 
 controller
 
