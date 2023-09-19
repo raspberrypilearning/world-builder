@@ -2,37 +2,37 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-3D worlds can be viewed from different perspectives. The Raccoon is the Player character in this game. Which perspective is the game using?
+3D-werelden kunnen vanuit verschillende perspectieven worden bekeken. The Raccoon is the Player character in this game. Welk perspectief gebruikt het spel?
 
-![A Raccoon player character viewed from behind.](images/perspective-view.png)
+![Een raccoon speler personage dat van achter wordt bekeken.](images/perspective-view.png)
 
 --- choices ---
 
-- ( ) First person
+- ( ) Eerste persoon
 
 
-  --- feedback --- No, first person is where you see the world through the eyes of the player. You might see their hands or arms, or what they are holding, but you don't see the whole character.
-
-  --- /feedback ---
-
-- ( ) Second person
-
-
-  --- feedback --- No, second person is where you see the world through the eyes of another character. This technique is sometimes used in cut scenes or flashbacks.
+  --- feedback --- Nee, in de eerste persoon zie je de wereld door de ogen van de speler. Je ziet misschien hun handen of armen, of wat ze vasthouden, maar je ziet niet het hele personage.
 
   --- /feedback ---
 
-- (x) Third person
+- ( ) Tweede persoon
 
 
-  --- feedback --- Yes, third person is where you see the world through a camera that looks at and follows the Player. You can create a third person perspective by making the Main Camera a child of the Player GameObject. --- /feedback ---
+  --- feedback --- Nee, in de tweede persoon zie je de wereld door de ogen van een ander personage. Deze techniek wordt soms gebruikt in tussenfilmpjes of flashbacks.
 
-- ( ) Top down
+  --- /feedback ---
 
-  --- feedback --- No, top down is where you see the world from a birds-eye view, looking down on the Player and other GameObjects. --- /feedback ---
+- (x) Derde persoon
+
+
+  --- feedback --- Ja, in de derde persoon zie je de wereld door een camera die naar de speler kijkt en deze volgt. Je kunt een derdepersoonsperspectief creëren door de main camera een onderliggend onderdeel van het Player GameObject te maken. --- /feedback ---
+
+- ( ) Van boven naar beneden
+
+  --- feedback --- Nee, van boven naar beneden zie je de wereld vanuit vogelperspectief, terwijl je neerkijkt op de speler en andere GameObjects. --- /feedback ---
 
 --- /choices ---
 
