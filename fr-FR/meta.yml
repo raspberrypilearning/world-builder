@@ -1,0 +1,30 @@
+---
+title: Bâtisseur de mondes
+hero_image: images/banner.png
+description: Conçois et construis un monde en 3D avec des décors et des caractéristiques intéressantes avec un personnage joueur de ton choix
+meta_title: Apprendre Unity | Développement de jeux | Bâtisseur de mondes
+meta_description: Apprends à développer des jeux Unity avec Raspberry Pi Foundation. Utilise tes compétences Unity pour concevoir et construire un monde en 3D avec un personnage joueur de ton choix.
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Ce que tu vas faire
+  - title: Thématiser ton monde
+  - title: Contrôles du joueur
+    completion:
+      - engaged
+  - title: Créer un décor
+    completion:
+      - internal
+  - title: Questionnaire rapide
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Partager
+  - title: Et ensuite ?
