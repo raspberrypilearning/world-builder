@@ -1,35 +1,35 @@
-## Theme your world
+## Het thema van je wereld
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What will your world be like? The material you choose for the ground will set the scene and you will choose or create a player character. 
+Hoe zal jouw wereld eruit zien? Het materiaal dat je voor de grond kiest, zal de sfeer bepalen en daarnaast kies of maak je een spelerspersonage. 
 
 </div>
 <div>
-![The Scene view showing a character made from 3D GameObjects with coloured materials. The Character is standing on a plane.](images/character-plane.png){:width="300px"}
+![De scèneweergave toont een personage gemaakt van 3D GameObjects met gekleurde materialen. Het personage staat op een vlak.](images/character-plane.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Think about the kind of world you want to make:
+Denk na over het soort wereld dat je wilt maken:
 
-+ What kind of biome, habitat, geography, or weather system will it have?
-+ Will it be based on somewhere in the real world, an imagined planet, or based on a book or movie you enjoy?
++ Wat voor soort bioom, habitat, geografie of weersysteem zal het hebben?
++ Is het gebaseerd op een bestaande plek in de echte wereld, op een denkbeeldige planeet, of op een boek of film die je leuk vindt?
 
-Think of a **name** for your world.
+Bedenk een **-naam** voor jouw wereld.
 
 --- /task ---
 
 --- task ---
 
-**Choose:**
+**Kies:**
 
-Open your Introduction to Unity project containing the scenes you created in the three Explore projects in this path.
+Open je Introductie tot Unity project met scènes die je hebt gemaakt in de drie Verken projecten in dit pad.
 
-Or
+Of
 
-Download and unzip the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. Create a new 3D Unity project and import the starter package.
+Download en unzip het [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} op je computer. Kies een geschikte locatie, zoals bijvoorbeeld je map Documenten. Maak een nieuw 3D Unity-project en importeer het startpakket.
 
 [[[unity-create-3d-project]]]
 
@@ -39,62 +39,62 @@ Download and unzip the [Unity starter package](https://rpf.io/p/en/world-builder
 
 --- task ---
 
-**Choose:**
+**Kies:**
 
-You can either create a new empty scene in the project, or save a copy of your Star collector scene with a new name.
+Je kunt een nieuwe lege scène in het project maken, of een kopie van je Sterren verzamelaarscène met een nieuwe naam opslaan.
 
-Name the new scene with the name of your world.
+Geef de nieuwe scène de naam van jouw wereld.
 
 
 --- collapse ---
 
 ---
-title: Create a new scene
+titel: Maak een nieuwe scène
 ---
 
-Select **File** then **New Scene**.
+Klik op **File** en vervolgens op **New Scene**.
 
-![The expanded file menu showing the 'New Scene' option.](images/new-scene.png)
+![Het uitgeklapte bestandsmenu met de optie 'New Scene'.](images/new-scene.png)
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Save a copy of an existing scene
+title: Sla een kopie van een bestaande scène op
 ---
 
-Right-click on your **NPC scene** and choose **Save As**.
+Klik met de rechtermuisknop op je **NPC scene** en kies **Save As**.
 
-Delete any GameObjects that you don't want in your new world. If you think you might want to use a GameObject later, you can deactivate it by unchecking the box next to its name in the Inspector.
+Verwijder alle GameObjecten die je niet wilt in je nieuwe wereld. Als je denkt dat je later een GameObject toch wilt gebruiken kan je het nu deactiveren door het selectievakje naast zijn naam in de Inspector uit te vinken.
 
-![The Inspector window for the NPC Dog GameObject with the active box unchecked.](images/dog-inactive.png)
+![Het Inspector-venster voor het NPC Dog GameObject met de active box uitgeschakeld.](images/dog-inactive.png)
 
 --- /collapse ---
 
 --- /task ---
 
-Your world or map will need a floor or ground for the player to walk on.
+Je wereld of kaart heeft een vloer of grond nodig waarop de speler kan lopen.
 
 --- task ---
 
-If you're starting from a new scene, add a plane for the floor. If you're working on an existing scene, you can just change the material or size.
+Als je vanuit een nieuwe scène begint, voeg dan een vlak voor de vloer toe. Als je aan een bestaande scène werkt, kun je gewoon het materiaal of de grootte wijzigen.
 
-![The Scene view showing a large plane.](images/new-plane.png)
+![De Scèneweergave met een groot vlak.](images/new-plane.png)
 
 --- collapse ---
 
 ---
-title: Add a plane
+title: Voeg een vlak toe
 ---
 
-Right-click on your scene in the Hierarchy window and select **GameObject** then **3D Object** then **Plane**.
+Klik met de rechtermuisknop op je scène in het Hierarchy venster en selecteer **GameObject** en vervolgens **3D Object** en vervolgens **Plane**.
 
-![The 3D object menu with 'plane' highlighted.](images/3D-plane.png)
+![Het 3D-object-menu met 'plane' gemarkeerd.](images/3D-plane.png)
 
-The default size for the plane is 10m × 10m. Unity uses meters as the unit of measurement.
+Het standaardformaat voor het vlak is 10m × 10m. Unity gebruikt meters als meeteenheid.
 
-You can change the x and z Scale properties for the Plane's Transform in the Scene view or in the Inspector.
+Je kunt de x en z Scale eigenschappen voor de Transform van het vlak wijzigen in de Scène weergave of in de Inspector.
 
 ![The Transform component showing x and z scale properties with the value 4.](images/plane-transform.png)
 
@@ -102,49 +102,49 @@ You can change the x and z Scale properties for the Plane's Transform in the Sce
 
 [[[unity-terrain-object]]]
 
-Add or change the material of the plane to fit with the world you are designing.
+Voeg materiaal toe aan je vloer of wijzig het zodat het past bij de wereld die je aan het ontwerpen bent.
 
-![The Scene view showing a large plane with 'Yellow Stone' material.](images/yellow-stone-plane.png)
+![De scèneweergave toont een groot vlak met 'Yellow Stone'-materiaal.](images/yellow-stone-plane.png)
 
 [[[unity-material-with-texture]]]
 
 --- /task ---
 
-What kind of character will the Player be in your world? We have included some animal and car model objects that you can choose from. Alternatively, you can make a character from a 3D GameObject with child objects that move together.
+Wat voor soort personage zal de Speler in je wereld zijn? We hebben enkele dieren en auto model voorwerpen al toegevoegd waar je uit kunt kiezen. Eventueel kun je zelf een personage maken van een 3D GameObject met onderliggende objecten die samen bewegen.
 
-![A strip of images showing different characters. There are characters built from 3D GameObjects, and characters from models such as the cat, raccoon, and cars.](images/player-examples.png)
+![Een aantal afbeeldingen met de verschillende personages. There are characters built from 3D GameObjects, and characters from models such as the cat, raccoon, and cars.](images/player-examples.png)
 
 --- task ---
 
-If you made a copy of an existing scene but want a different player character:
-+ Drag the Main Camera from the existing Player to the top level in the Hierarchy, then
-+ Delete the Player GameObject.
+Als je een kopie hebt gemaakt van een bestaande scène, maar een ander spelerspersonage wilt:
++ Sleep de Main Camera van de bestaande speler naar het hoogste niveau in de Hierarchy, en
++ Verwijder dan het Player GameObject.
 
-Models can be created in 3D modelling tools such as Blender. You can also reuse existing Models if you have permission. To save time, we recommend that you use one of the models we have provided, or design your own GameObject using 3D shapes in Unity.
+Modellen kunnen worden gemaakt in 3D-modelleringstools zoals Blender. Je kunt bestaande modellen ook hergebruiken als je toestemming hebt. Om tijd te besparen, raden we je aan om één van de meegeleverde modellen te gebruiken, of om je eigen GameObject te ontwerpen met behulp van 3D vormen in Unity.
 
-**Choose:**
+**Kies:**
 
 --- collapse ---
 
 ---
-title: Create a GameObject from a model
+title: Maak een GameObject van een model
 ---
 
-Navigate to the Model you want to use in the Project window.
+Navigeer naar het model dat je wilt gebruiken in het projectvenster.
 
-Drag the Model to your scene.
+Sleep het model naar je scène.
 
-![The Scene view with the Raccoon model added.](images/raccoon-character.png)
+![De scène met het Raccoonmodel toegevoegd.](images/raccoon-character.png)
 
-Name the new GameObject `Player` and add the Player tag.
+Noem het nieuwe GameObject `Player` en voeg de Playertag toe.
 
-![The Inspector window for the Player character. The model has been renamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
+![Het Inspector venster voor het speler personage. Het model is hernoemd naar 'Player' en de tag is bijgewerkt naar 'Player'.](images/player-tag.png)
 
-Adjust the start position of the Player's Transform.
+Pas de startpositie van de Transform van de speler aan.
 
-If you use the Cat or Raccoon, decide which accessories you will enable, then disable the others by unchecking the box next to their name in the Inspector.
+Als je de Cat of Raccoon gebruikt, kies dan welke accessoires je wilt gebruiken, alles wat je niet wil gebruiken schakel je uit door het vinkje naast hun naam in de Inspector uit te vinken.
 
-![The Player with 'ConstructionGearMesh' and 'PartHatandBowtie' disabled.](images/child-disabled.png)
+![De speler met 'ConstructionGearMesh' en 'PartHatandBowtie' uitgeschakeld.](images/child-disabled.png)
 
 --- /collapse ---
 
@@ -154,19 +154,19 @@ If you use the Cat or Raccoon, decide which accessories you will enable, then di
 title: Create a GameObject from 3D shapes
 ---
 
-Create an 'Empty' 3D object to represent the player.
+Maak een 'Empty' 3D-object voor de speler.
 
-![The Hierarchy window with right-click menu expanded and 'Create Empty' selected.](images/empty-object.png)
+![Het Hierarchy venster met rechtsklikmenu dat is uitgevouwen en 'Create Empty' geselecteerd.](images/empty-object.png)
 
-Name the new GameObject `Player` and add the Player tag.
+Noem het nieuwe GameObject `Player` en voeg de Playertag toe.
 
-![The Inspector window for the Player character. The model has been renamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
+![Het Inspector venster voor het speler personage. Het model is hernoemd naar 'Player' en de tag is bijgewerkt naar 'Player'.](images/player-tag.png)
 
-Right-click on the Player and add other 3D shapes from **Create** > **3D Object** as child GameObjects. The child objects will move with the Player GameObject.
+Klik met de rechtermuisknop op de speler en voeg andere 3D-vormen toe vanuit**Create** > **3D Object** als onderliggende GameObjects. De onderliggende objecten zullen meebewegen met het Player GameObject.
 
-This character has a 'Capsule' body with child GameObjects that are 'Spheres' and 'Cylinders'. The shapes have been renamed to represent their body part.
+Dit personage heeft een 'Capsule'-lichaam met onderliggende GameObjects die 'Spheres' en 'Cylinders' zijn. De vormen hebben de naam gekregen van het lichaamsdeel dat ze voorstellen.
 
-![A 3D shape character in Scene view and the Hierarchy window showing the 3D shape child objects that make up the whole character.](images/3d-shape-character.png){:width="400px"}
+![Een karakter van 3D-vormobjecten in de scèneweergave en het Hierarchy venster met de onderliggende 3D-vormobjecten waaruit het hele personage bestaat.](images/3d-shape-character.png){:width="400px"}
 
 --- /collapse ---
 
@@ -174,33 +174,33 @@ This character has a 'Capsule' body with child GameObjects that are 'Spheres' an
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
 [[[unity-assign-material]]]
 
 --- collapse ---
 
 ---
-title: The material texture is too big or small
+title: De textuur van het materiaal is te groot of te klein
 ---
 
-You can change the **Tiling** properties for the material, or for a material used in a GameObject. Choose bigger tiling numbers to create a smaller pattern.
+Je kunt de **Tiling** eigenschappen wijzigen voor het materiaal of voor materiaal dat in een GameObject wordt gebruikt. Kies grotere nummers om een kleiner patroon te creëren.
 
-![The Inspector window showing Tiling size set to '50'.](images/tiling-component.png)
+![De Inspector-venster met Tiling grootte ingesteld op '50'.](images/tiling-component.png)
 
-![The Game view plane with Stone Wall material tiled at 1 (very large stones), 50 (medium sized stones), and 100 (small stones).](images/tiling.png)
+![De game weergave van het vlak met Stone Wall materiaal ingesteld op 1 (zeer grote stenen), 50 (middelgrote stenen) en 100 (kleine stenen).](images/tiling.png)
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I deleted the Camera!
+title: Ik heb de camera verwijderd!
 ---
 
-If your Camera is a child of the Player and you delete the Player, then you will also delete the Camera.
+Als je Camera een onderliggend object is van de Speler en je de speler verwijdert, dan verwijder je ook de camera.
 
-To add a new Camera, right-click in the Hierarchy and choose Camera.
+Om een nieuwe camera toe te voegen, klik je met de rechtermuisknop in de Hierarchy en kies Camera.
 
 You can drag this Camera to be a child of your Player and adjust the settings.
 
