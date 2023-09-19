@@ -1,52 +1,52 @@
-## You will make
+## Wat ga je maken
 
-Use your Unity skills to design and build a 3D world with a Player character of your choice.
+Gebruik je Unity-vaardigheden om een 3D-wereld te ontwerpen en te bouwen met een personage naar keuze.
 
-You will build on this world in the next two projects in the [Introduction to Unity](https://projects.raspberrypi.org/en/raspberrypi/unity-intro){:target='_blank'} pathway.
+Op deze wereld bouw je verder op de volgende twee projecten in het traject [Inleiding tot Unity](https://projects.raspberrypi.org/en/raspberrypi/unity-intro){:target='_blank'}.
 
-This project is brought to you with generous support from [Unity Technologies](https://unity.com/){:target="_blank"}.  These [projects](https://projects.raspberrypi.org/en/pathways/unity-intro){:target="_blank"} offer young people the opportunity to take their first steps in creating virtual worlds using Real-Time 3D.
+Dit project wordt je aangeboden met steun van [Unity Technologies](https://unity.com/){:target="_blank"}.  Deze [projecten](https://projects.raspberrypi.org/en/pathways/unity-intro){:target="_blank"} bieden jongeren de kans om hun eerste stappen te zetten in het maken van virtuele werelden met gebruik van Real-Time 3D.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**World building**</span> is imagining an environment and then making it come to life. World building can involve storytelling, visual design, map making, and character design. In Unity you can imagine a 3D world and then make it so that others can experience it. 
+<span style="color: #0faeb0">**World building**</span> laat je je fantasie gebruiken om een omgeving te bedenken en deze dan tot leven te laten komen. World building can involve storytelling, visual design, map making, and character design. In Unity kun je een 3D-wereld bedenken en deze vervolgens zo maken dat anderen deze kunnen ervaren. 
 </p>
 
-You will:
-+ Choose a 3D Player character (use a provided model or make your own from 3D GameObjects)
-+ Build a 3D environment using 3D GameObjects and Particle Systems
-+ Decide on camera settings and movement controls for your Player character
+Je gaat:
++ Een 3D Player-personage kiezen (gebruik een meegeleverd model of maak er zelf een met 3D GameObjects)
++ Een 3D-omgeving bouwen met behulp van 3D GameObjects en Particle Systems
++ De camera-instellingen en de manier van bewegen bepalen voor je personage
 
-![A strip of Game view images from three different projects: a snow scene, a nature scene, and a maze.](images/examples.png)
+![Verschillende Game View afbeeldingen van drie verschillende projecten: een sneeuwscène, een natuurscène en een doolhof.](images/examples.png)
 
 --- no-print ---
 
-### Play ▶️
+### Afspelen ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">
 
-Click on the embedded project and navigate through the example world.
+Klik op het ingesloten project en navigeer door deze voorbeeld wereld.
 
-Think about the GameObjects, including their shape, materials, and positions.
-+ Does the character fit the theme?
-+ How have the structures been created?
+Denk na over de GameObjects, inclusief hun vorm, materialen en posities.
++ Past het personage bij het thema?
++ Hoe zijn de elementen (zoals bijvoorbeeld muren) gemaakt?
 
-[Snow scene](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target='_blank'} 
+[Sneeuwscène](https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb){:target='_blank'} 
 
 <iframe allowtransparency="true" width="710" height="450" src="https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb" frameborder="0"></iframe>
 
-![The Game view of a snow scene with snowman player created from 3D shapes, a white stone floor with large tiling and several brick walls coloured to look like bricks of ice.](images/snow-world.png){:width="400px"}
+![De Game weergave van een sneeuwscène met een sneeuwman speler gemaakt uit 3D vormen, een witte stenen vloer met een grote tegel en verschillende muren die gekleurd zijn om er als ijsblokken uit te zien.](images/snow-world.png){:width="400px"}
 
 --- /task ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
-You are going to make some design decisions to build your world.
+Je gaat een aantal ontwerpbeslissingen nemen om je wereld te creëren.
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Bekijk deze voorbeeldprojecten om meer ideeën op te doen:
 
 [Try the Maze world](https://raspberrypilearning.github.io/unity-webgl/maze-world-builder){:target='_blank'}. ![A player character with a top hat created from 3D shapes and a series of horizontal and vertical joined pink walls creating a maze to traverse.](images/maze-world.png){:width="400px"}
 
@@ -58,11 +58,11 @@ Explore these example projects to get more ideas:
 
 --- print-only ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
-You are going to make some design decisions to build your world.
+Je gaat een aantal ontwerpbeslissingen nemen om je wereld te creëren.
 
-Explore these example projects to get more ideas:
+Bekijk deze voorbeeldprojecten om meer ideeën op te doen:
 
 Snow scene: https://raspberrypilearning.github.io/unity-webgl/SnowSceneWeb ![](images/snow-world.png){:width="400px"}
 Maze world: https://raspberrypilearning.github.io/unity-webgl/maze-world-builder ![](images/maze-world.png){:width="400px"}
@@ -70,7 +70,7 @@ Hills and trees: https://raspberrypilearning.github.io/unity-webgl/HillsandTrees
 
 --- /print-only ---
 
-To explore how these projects have been made, download and unzip the [Unity packages](https://rpf.io/p/en/world-builder-get){:target='_blank'} then import each one into an new 3D Unity project.
+Om te ontdekken hoe deze projecten tot stand zijn gekomen. download en unzip de [Unity packages](https://rpf.io/p/en/world-builder-get){:target='_blank'} en importeer ze dan een voor een in een nieuw 3D Unity project.
 
 [[[unity-create-3d-project]]]
 
