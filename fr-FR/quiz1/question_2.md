@@ -2,12 +2,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-What kind of Asset is being selected in this screenshot?
+Quel type d'asset est sélectionné dans cette capture d'écran ?
 
-![An Inspector window with 'Albedo' selected and a pop-up menu showing a gallery of Assets. Examples in the gallery are BrickWallAlbedo and Car01Albedo.](images/inspector-list.png)
+![Fenêtre Inspector avec « Albedo » sélectionné et un menu contextuel affichant une galerie d'assets. Les exemples dans la galerie sont BrickWallAlbedo et Car01Albedo.](images/inspector-list.png)
 
 --- choices ---
 
@@ -15,17 +15,17 @@ What kind of Asset is being selected in this screenshot?
 
   --- feedback ---
 
-  Yes, that's right. A Texture is a bitmap image such as a '.png' that can be created in an image editor. A Material uses a Texture, and other Assets and settings, to control the way a GameObject looks.
+  Oui, c'est exact. Une texture est une image bitmap telle qu'un « .png » qui peut être créée dans un éditeur d'images. Un matériau utilise une texture, ainsi que d'autres assets et paramètres, pour contrôler l'apparence d'un GameObject.
 
-  **Tip:** You can create a bitmap image in an image editor, save it, and then use **Import New Asset...** to create a Texture.
+  **Astuce :** tu peux créer une image bitmap dans un éditeur d'images, l'enregistrer, puis utiliser **Import New Asset...** pour créer une texture.
 
   --- /feedback ---
 
-- () Material
+- () Matériau
 
   --- feedback ---
 
-  No, the assets in the screenshot are not materials themselves but they can be used in the creation of a material to control the way a GameObject looks.
+  Non, les assets de la capture d'écran ne sont pas des matériaux en soi, mais ils peuvent être utilisés dans la création d'un matériau pour contrôler l'apparence d'un GameObject.
 
   --- /feedback ---
 
@@ -33,7 +33,7 @@ What kind of Asset is being selected in this screenshot?
 
   --- feedback ---
 
-  No, Unity has a name for images that are imported into 3D projects to be wrapped around 3D objects.
+  Non, Unity a un nom pour les images importées dans des projets 3D et entourant des objets 3D.
 
   --- /feedback ---
 
