@@ -1,44 +1,44 @@
-## Player controls
+## Contrôles du joueur
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The player needs to be able to control your character so that they can move around your world. 
+Le joueur doit pouvoir contrôler ton personnage pour qu'il puisse se déplacer dans ton monde. 
 </div>
 <div>
-![The Game view showing the Cat player character moving around on the plane with the camera following.](images/camera-movements.gif){:width="300px"}
+![La vue Game montre le personnage joueur Cat se déplaçant dans l'avion avec la caméra qui le suit.](images/camera-movements.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Choose:** How will your player move?
-+ If you have chosen the Cat or Raccoon model, then you can reuse your PlayerController movement script and IdleWalk animator.
-+ If you have chosen the Car01 or Car02 model, you can reuse your PlayerController movement script and use the matching Car1 or Car2 animators.
-+ If you have created your own Player, then you can create your own simple movement script without animation.
+**Choisir :** Comment ton joueur se déplacera-t-il ?
++ Si tu as choisi le modèle Cat ou Raccoon, tu peux alors réutiliser ton script de mouvement PlayerController et l'animator IdleWalk.
++ Si tu as choisi le modèle Car01 ou Car02, tu peux réutiliser ton script de mouvement PlayerController et utiliser les animators Car1 ou Car2 correspondants.
++ Si tu as créé ton propre joueur, tu peux alors créer ton propre script de mouvement simple sans animation.
 
-![An animated gif showing the Raccoon character moving around on the plane.](images/animated-char.gif)
+![Un gif animé montrant le personnage Raccoon se déplaçant dans l'avion.](images/animated-char.gif)
 
 --- collapse ---
 
 ---
-title: Add the PlayerController script for a Cat, Raccoon, or Rat
+title: Ajouter le script PlayerController pour Cat, Raccoon ou Rat
 ---
 
-Select your **Player GameObject** and then click **Add Component** in the Inspector and choose **Character Controller**.
+Sélectionne ton **GameObject Joueur** puis clique sur **Add Component** dans l'Inspector et choisis **Character Controller**.
 
-![The Character Controller component in the Inspector window with default settings.](images/character-controller.png)
+![Le composant Character Controller dans la fenêtre Inspector avec les paramètres par défaut.](images/character-controller.png)
 
-Find your **IdleWalk Animator** in the Animation folder in the Project window, select the **Player GameObject** and drag the **Animator** to the Inspector.
+Trouve ton **IdleWalk Animator** dans le dossier Animation de la fenêtre Project, sélectionne le **GameObject Joueur** et fais glisser l'**Animator** vers l'Inspector.
 
-![The Animator component in the Inspector window with 'IdleWalk' populated.](images/animator-component.png)
+![Le composant Animator dans la fenêtre Inspector avec « IdleWalk » rempli.](images/animator-component.png)
 
-If you started from a project containing the PlayerController script, then you can add it to a new character GameObject. Find the **PlayerController** script in the Project window, select the **Player GameObject** and drag the Script to the Inspector.
+Si tu es parti d'un projet contenant le script PlayerController, tu peux l'ajouter à un nouveau GameObject personnage. Trouve le script **PlayerController** dans la fenêtre Project, sélectionne le **GameObject Joueur** et fais glisser le script vers l'Inspector.
 
-![The Script component in the Inspector window with 'Player Controller' script populated.](images/script-component.png)
+![Le composant Script dans la fenêtre Inspector avec le script « Player Controller » rempli.](images/script-component.png)
 
-**Tip:** You can also drag the Script and Animator from the Project window to the Player GameObject in the Hierarchy. Just be careful to drag it to the correct GameObject.
+**Astuce :** tu peux aussi faire glisser le script et l'animator de la fenêtre Project vers le GameObject Joueur dans Hierarchy. Fais simplement attention à le faire glisser vers le bon GameObject.
 
-If you don't have the PlayerController script, then select your **character GameObject** and click **Add Component** and create a script called `PlayerController` with this script:
+Si tu n'as pas le script PlayerController, alors sélectionne ton **GameObject personnage** et clique sur **Add Component** et crée un script appelé `PlayerController` avec ce script :
 
 --- code ---
 ---
@@ -93,26 +93,26 @@ public class PlayerController : MonoBehaviour
 
 --- task ---
 
-**Test:** Try moving around in Play mode and make sure your character can move around.
+**Test :** essaie de te déplacer en mode Play et vérifie que ton personnage peut se déplacer.
 
-Adjust the speed settings to get the right effect for your character.
+Ajuste les paramètres de vitesse pour obtenir le bon effet pour ton personnage.
 
-![An animated gif showing the Car01 model moving around on the plane with animation.](images/animated-car.gif)
+![Un gif animé montrant le modèle Car01 se déplaçant sur l'avion avec animation.](images/animated-car.gif)
 
-**Tip:** If you change the speed properties in the Inspector, then those values will be used instead of the defaults. Default values are useful if you want to reuse the script in other scenes or projects.
+**Astuce :** si tu modifies les propriétés de la vitesse dans l'Inspector, alors ces valeurs seront utilisées à la place des valeurs par défaut. Les valeurs par défaut sont utiles si tu veux réutiliser le script dans d'autres scènes ou projets.
 
 [[[unity-console-error]]]
 
 --- collapse ---
 
 ---
-title: My character isn't moving
+title: Mon personnage ne se déplace pas
 ---
 
-+ Check that you are in Play mode with the colour tint and you have the mouse cursor over the Game view.
-+ Check for any errors in the Console. If there are errors in GameObjects you are not using, such as NPCs, then you could delete the NPCs (you can copy them from another scene if you want them later).
-+ Make sure that the SimpleController script is attached to the Player GameObject (and not a different GameObject).
-+ Make sure the parameter name used for the Animator is the same as the parameter name in your script. In the above example `isRunning` is used as the parameter name.
++ Vérifie que tu es en mode Play avec la teinte de couleur et que tu as le curseur de la souris sur la vue Game.
++ Vérifie qu'il n'y a pas d'erreurs dans la console. S'il y a des erreurs dans les GameObjects que tu n'utilises pas, comme les PNJ, alors tu pourrais supprimer les PNJ (tu peux les copier d'une autre scène si tu les veux plus tard).
++ Assure-toi que le script SimpleController est attaché au GameObject Joueur (et non à un GameObject différent).
++ Assure-toi que le nom du paramètre utilisé pour l'Animator est le même que le nom du paramètre dans ton script. Dans l'exemple ci-dessus, `court` est utilisé comme nom de paramètre.
 
 --- /collapse ---
 
@@ -120,7 +120,7 @@ title: My character isn't moving
 
 --- task ---
 
-You don't have to make the camera follow the Player, but it often makes sense.
+Tu n'es pas obligé de faire en sorte que la caméra suive le joueur, mais cela a souvent du sens.
 
 [[[unity-camera-follow-player]]]
 
@@ -128,25 +128,25 @@ You don't have to make the camera follow the Player, but it often makes sense.
 
 --- task ---
 
-**Test:** Play your scene and make sure the camera follows the Player.
+**Test :** joue ta scène et vérifie que la caméra suit bien le joueur.
 
-![An animated gif showing the camera following the player from a slightly elevated position.](images/camera-follow-player.gif)
+![Un gif animé montrant la caméra qui suit le joueur depuis une position légèrement surélevée.](images/camera-follow-player.gif)
 
-You may want to adjust the camera settings later when you have your scenery in place.
+Tu voudras peut-être ajuster les paramètres de la caméra plus tard, lorsque ton paysage sera en place.
 
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Déboguer :**
 
-Useful debugging tips:
-- Turn on the Play mode tint so that you can tell when you are in Game mode.
-- Click on **Gizmos** in Play mode and then click on a GameObject in the Inspector to view its colliders.
-- Look at the values of public variables in the Inspector in Play mode to see how they are changing.
-- Use `Debug.Log()` to print messages to the Console to understand what's happening.
-- Check the Console for errors. Script errors also appear in the bar at the bottom of the editor.
+Astuces de débogage utiles :
+- Active la teinte du mode Play pour que tu puisses savoir quand tu es en mode Game.
+- Clique sur **Gizmos** en mode Play, puis clique sur un GameObject dans l'Inspector pour afficher ses colliders.
+- Regarde les valeurs des variables publiques dans l'Inspector en mode Play pour voir comment elles changent.
+- Utilise `Debug.Log()` pour imprimer des messages sur la console afin de comprendre ce qui se passe.
+- Vérifie qu'il n'y a pas d'erreurs dans la console. Les erreurs de script apparaissent également dans la barre située en bas de l'éditeur.
 
 [[[unity-camera-error]]]
 
