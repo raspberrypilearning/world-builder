@@ -1,28 +1,28 @@
 ---
-title: World builder
+title: Bouw je eigen wereld
 hero_image: images/banner.png
-description: Design and build a 3D world with interesting scenery and features with a player character of your choice
-meta_title: Learn Unity | Game development | World builder
-meta_description: Learn Unity game development with the Raspberry Pi Foundation. Use your Unity skills to design and build a 3D world with a player character of your choice.
+description: Ontwerp en bouw een 3D wereld met interessante landschappen en functies met een personage naar keuze
+meta_title: Leer Unity | Games ontwikkelen | Bouw je eigen wereld
+meta_description: Leer Unity-gameontwikkeling met de Raspberry Pi Foundation. Gebruik je Unity-vaardigheden om een 3D-wereld te ontwerpen en te bouwen met een personage naar keuze.
 version: 4
 listed: true
 copyedit: true
 last_tested: '2021-03-26'
 steps:
   - 
-    title: You will make
+    title: Wat ga je maken
   - 
-    title: Theme your world
+    title: Het thema van je wereld
   - 
-    title: Player controls
+    title: Bediening voor je speler
     completion:
       - engaged
   - 
-    title: Build scenery
+    title: Bouw een landschap
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,8 +31,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: Share
+    title: Delen
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
