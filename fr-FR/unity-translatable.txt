@@ -1,18 +1,18 @@
-speed
+vitesse
 
-rotateSpeed
+Vitesserotation
 
 anim
 
-moveSpeed
+Vitessedeplacement
 
-controller
+controlleur
 
 Vertical
 
-forward
+avancer
 
 Horizontal
 
-curSpeed
+Vitessecur
 
