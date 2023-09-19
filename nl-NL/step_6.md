@@ -1,20 +1,20 @@
-## Upgrade your project
+## Verbeter je project
 
-If you have time, you can upgrade to your project and add more features to your world.
+Als je tijd hebt, kun je je project verbeteren en meer functies aan je wereld toevoegen.
 
-Here are some ideas you could try:
-- Add walls around your world so that the Player can't walk off the map
-- Make your plane bigger and add different areas to explore
-- If you made your own Player GameObject, add more detail to it
-- Make more detailed scenery objects using 3D GameObjects with child objects
-- Experiment with Particle Systems to create interesting effects in different areas of your map
-- Adjust the Player's movement and the camera angle to get the effect you want
-- Click **+** in the Hierarchy, choose **Light** and add a **Directional Light** to light up part of your world
+Hier zijn een paar andere ideeën die je zou kunnen proberen:
+- Voeg muren rond je wereld toe, zodat de speler niet van de kaart kan lopen
+- Maak je vlakte groter en voeg verschillende gebieden toe om te ontdekken
+- Als je je eigen Player GameObject hebt gemaakt, voeg er dan meer details aan toe
+- Maak meer gedetailleerde decor objecten met behulp van 3D GameObjects met onderliggende objecten
+- Experimenteer met Particle Systems om interessante effecten te creëren in verschillende delen van je kaart
+- Pas de beweging van de speler en de camerahoek aan om het gewenste effect te krijgen
+- Klik op **+** in de Hierarchy, kies **Light** en voeg een **Directional Light** toe om een deel van je wereld te verlichten
 
 <iframe allowtransparency="true" width="710" height="500" src="https://world-builder-ms.rpfilt.repl.co" frameborder="0"></iframe>
 <iframe allowtransparency="true" width="710" height="500" src="https://weatherworld.rpfilt.repl.co" frameborder="0"></iframe>
 <iframe allowtransparency="true" width="710" height="500" src="https://castleworldbuilder.rpfilt.repl.co" frameborder="0"></iframe>
 
-Take a look at some World builder projects created by community members in the Raspberry Pi Foundation’s gallery of [World builder Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
+Bekijk enkele bouw je eigen wereld projecten die door communityleden zijn gemaakt in de galerij van de Raspberry Pi Foundation met [World Builder Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
 
 --- save ---
