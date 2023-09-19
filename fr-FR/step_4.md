@@ -1,8 +1,8 @@
-## Build scenery
+## Créer un décor
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you can build out the map of your world with scenery and particle systems. 
+Tu peux maintenant créer la carte de ton monde avec des décors et des systèmes de particules. 
 </div>
 <div>
 ![](images/scenery-example.gif){:width="300px"}
@@ -11,33 +11,33 @@ Now you can build out the map of your world with scenery and particle systems.
 
 --- task ---
 
-Use 3D shapes to add steps or hills to your world to create different levels for your player to explore.
+Utilise des formes 3D pour ajouter des marches ou des collines à ton monde afin de créer différents niveaux que ton joueur pourra explorer.
 
 --- /task ---
 
 --- task ---
 
-The Character Controller component has properties that allow the character to walk up slopes and steps.
+Le composant Character Controller possède des propriétés qui permettent au personnage de monter des pentes et des marches.
 
-![The Character Controller component in the Inspector window with 'Slope limit' and 'Step offset' properties.](images/slopes-steps.png)
+![Le composant Character Controller dans la fenêtre Inspector avec les propriétés « Slope limit » et « Step offset ».](images/slopes-steps.png)
 
 --- collapse ---
 
 ---
-title: Steps and slopes with the Character Controller
+title: Marches et pentes avec le Character Controller
 ---
 
-The Character Controller allows a GameObject to move up slopes and steps.
+Le Character Controller permet à un GameObject de se déplacer sur des pentes et des marches.
 
-You can adjust the settings to control the behaviour:
-+ **Slope Limit**: The character will walk up slopes that are less than this number of degrees.
-+ **Step Offset**: The character will walk up steps that are less than this height.
+Tu peux ajuster les paramètres pour contrôler le comportement :
++ **Slope Limit** : le personnage montera des pentes inférieures à ce nombre de degrés.
++ **Step Offset** : le personnage montera des marches inférieures à cette hauteur.
 
-The default settings will be fine for many situations.
+Les paramètres par défaut conviennent à de nombreuses situations.
 
-![The Character Controller component in the Inspector window with 'Slope Limit' and 'Step Offset' properties.](images/slopes-steps.png)
+![Le composant Character Controller dans la fenêtre Inspector avec les propriétés « Slope Limit » et « Step Offset ».](images/slopes-steps.png)
 
-**Tip:** Walking on surfaces is based on colliders, not on the visible parts of the GameObject. If you get unusual behaviour, then click on Gizmos in the Game view to view the colliders as you test your game.
+**Astuce :** la marche sur les surfaces est basée sur les colliders, et non sur les parties visibles du GameObject. Si tu obtiens un comportement inhabituel, clique alors sur Gizmos dans la vue Game pour voir les colliders pendant que tu testes ton jeu.
 
 --- /collapse ---
 
@@ -45,25 +45,25 @@ The default settings will be fine for many situations.
 
 --- task ---
 
-**Test:** Play your scene and try walking up the slopes or steps you created.
+**Test :** joue ta scène et essaie de monter les pentes ou les marches que tu as créées.
 
-Adjust the Character Controller settings or your scenery to get the effect you want.
+Ajuste les paramètres du Character Controller ou ton paysage pour obtenir l'effet que tu souhaites.
 
-**Debug:**
+**Déboguer :**
 
 --- collapse ---
 
 ---
-title: My character is walking in the air!
+title: Mon personnage marche dans les airs !
 ---
 
-Walking on surfaces is based on colliders, not on the visible parts of the GameObjects. If you get unusual behaviour, then click on Gizmos in the Game view to view the colliders as you test your game.
+La marche sur les surfaces est basée sur les colliders, et non sur les parties visibles des GameObjects. Si tu obtiens un comportement inhabituel, clique alors sur Gizmos dans la vue Game pour voir les colliders pendant que tu testes ton jeu.
 
-![The Game view with 'Gizmos' the drop-down menu highlighted in the top-right corner of the view.](images/gizmos-game.png)
+![La vue Game avec « Gizmos », le menu déroulant en surbrillance dans le coin supérieur droit de la vue.](images/gizmos-game.png)
 
-Adjust the colliders so that the character can get close enough to the surface to walk on it.
+Ajuste les colliders de manière à ce que le personnage puisse s'approcher suffisamment de la surface pour marcher dessus.
 
-If you create a sphere, it will have a sphere collider so set the x, y, and z scale to the same number.
+Si tu crées une sphère, elle aura un collider sphère, alors règle l'échelle x, y et z sur le même nombre.
 
 --- /collapse ---
 
@@ -71,31 +71,31 @@ If you create a sphere, it will have a sphere collider so set the x, y, and z sc
 
 --- task ---
 
-Now add some scenery to your world.
+Maintenant, ajoute un peu plus de décor à ton monde.
 
-You can use the models we have provided, 3D objects, or a combination.
+Tu peux utiliser les modèles que nous avons fournis, des objets en 3D, ou une combinaison des deux.
 
-![Side-by-side images of the Scene view with a tree made of 3D shapes and a tree from a model.](images/different-trees.png)
+![Images côte à côte de la vue Scene avec un arbre fait de formes 3D et un arbre issu d'un modèle.](images/different-trees.png)
 
 [[[unity-3d-objects]]]
 
 [[[unity-material-with-texture]]]
 
-We have included Car, Tree, and other models that could be used as scenery in your world.
+Nous avons inclus des modèles de voitures, d'arbres et d'autres modèles qui pourraient être utilisés comme décor dans ton monde.
 
 --- collapse ---
 
 ---
-title: Add model objects to a scene
+title: Ajouter des objets de modèle à une scène
 ---
 
-Navigate to a model in the Project window, then drag it to the Scene view to add it to your scene.
+Va vers un modèle dans la fenêtre Project, puis fais-le glisser vers la vue Scene pour l'ajouter à ta scène.
 
-![The Scene view with 'Bin' model.](images/model-scene.png)
+![La vue Scene avec le modèle « Bin ».](images/model-scene.png)
 
-You can adjust the Transform of the GameObjects you create to change their position, rotation, and scale (size).
+Tu peux ajuster le Transform des GameObjects que tu crées pour modifier leur position, leur rotation et leur échelle (taille).
 
-![The Inspector window with 'Transform' component.](images/transform-default.png)
+![La fenêtre Inspector avec le composant « Transform ».](images/transform-default.png)
 
 --- /collapse ---
 
@@ -109,31 +109,31 @@ You can adjust the Transform of the GameObjects you create to change their posit
 
 --- task ---
 
-**Test:** Play your scene and walk around. You might want to adjust the camera angle to work well with the scenery you've chosen.
+**Test :** joue ta scène et promène-toi. Tu voudras peut-être ajuster l'angle de la caméra pour qu'elle s'accorde bien avec le décor que tu as choisi.
 
-![The Transform component for the camera in the Inspector window showing Position settings x = 0, y = 3, z = -10 and Rotation y = -20. ](images/camera-transform.png)
+![Le composant Transform de la caméra dans la fenêtre Inspector montre les paramètres de position x = 0, y = 3, z = -10 et de rotation y = -20. ](images/camera-transform.png)
 
-![An animated gif showing the camera following the player at a height that shows enough of the scene but still adds mystery.](images/camera-follow.gif)
+![Un gif animé montrant la caméra qui suit le joueur à une hauteur qui montre suffisamment la scène mais qui ajoute encore du mystère.](images/camera-follow.gif)
 
 --- /task ---
 
-Particle Systems are a great way to make your world come to life.
+Les Particles Systems sont un excellent moyen de donner vie à ton monde.
 
 --- task ---
 
-Consider whether particle effects could make your world more interesting. They can be used to make objects sparkle, to create weather effects, or to make a volcano erupt.
+Demande-toi si les effets de particules pourraient rendre ton monde plus intéressant. Ils peuvent être utilisés pour faire scintiller des objets, pour créer des effets météorologiques ou pour faire entrer un volcan en éruption.
 
-![Animated gif showing the Game view of the snow scene with particle system providing a snow effect.](images/snow-particles.gif)
+![Gif animé montrant la vue Game de la scène de neige avec un particle system produisant un effet de neige.](images/snow-particles.gif)
 
 [[[unity-particle-system]]]
 
 --- /task ---
 
-Background music is another way to add atmosphere to a world.
+La musique de fond est un autre moyen d'ajouter une atmosphère à un monde.
 
 --- task ---
 
-The MusicLoop1 and MusicLoop2 sounds are suitable for background music, or you can add your own.
+Les sons MusicLoop1 et MusicLoop2 conviennent pour une musique de fond, ou tu peux ajouter les tiens.
 
 [[[unity-add-soundtrack]]]
 
@@ -144,17 +144,17 @@ The MusicLoop1 and MusicLoop2 sounds are suitable for background music, or you c
 
 --- task ---
 
-**Debug:**
+**Déboguer :**
 
 --- collapse ---
 
 ---
-title: The camera view isn't working well for the scene
+title: La vue caméra ne fonctionne pas bien pour la scène
 ---
 
-Adjust the Transform position and rotation of the camera to get the camera view that you want.
+Ajuste la position Transform et la rotation de la caméra pour obtenir la vue caméra que tu souhaites.
 
-![The Transform component for the camera in the Inspector window showing Position settings x = 0, y = 3, z = -10 and Rotation y = -20.](images/camera-transform.png)
+![Le composant Transform de la caméra dans la fenêtre Inspector montre les paramètres de position x = 0, y = 3, z = -10 et de rotation y = -20.](images/camera-transform.png)
 
 --- /collapse ---
 
