@@ -1,18 +1,18 @@
-speed
+snelheid
 
-rotateSpeed
+draaisnelheid
 
 anim
 
-moveSpeed
+bewegingssnelheid
 
 controller
 
-Vertical
+Verticaal
 
-forward
+vooruit
 
-Horizontal
+Horizontaal
 
-curSpeed
+curSnelheid
 
