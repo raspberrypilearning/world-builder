@@ -86,7 +86,7 @@ We hebben Car, Tree en andere modellen opgenomen die als decor in jouw wereld ku
 --- collapse ---
 
 ---
-title: model objecten toevoegen aan een scène
+title: Model objecten toevoegen aan een scène
 ---
 
 Navigeer naar een model in het projectvenster, sleep het naar de scène weergave om het toe te voegen aan je scène.

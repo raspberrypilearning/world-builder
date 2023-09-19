@@ -49,7 +49,7 @@ Geef de nieuwe scène de naam van jouw wereld.
 --- collapse ---
 
 ---
-titel: Maak een nieuwe scène
+title: Maak een nieuwe scène
 ---
 
 Klik op **File** en vervolgens op **New Scene**.
