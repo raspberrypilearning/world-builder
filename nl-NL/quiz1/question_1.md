@@ -1,48 +1,48 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-Imagine you have been asked to create a new video game. How could you get a visual character for your player GameObject?
+Stel je voor dat je wordt gevraagd een nieuwe videogame te maken. How could you get a visual character for your player GameObject?
 
 --- choices ---
 
-- ( ) Combine 3D objects to design a character from geometric shapes
+- ( ) Combineer 3D-objecten om een personage uit geometrische vormen te ontwerpen
 
   --- feedback ---
 
-  This is a great way to create characters that can be made from 3D shapes, but it's not your only option.
+  Dit is een goede manier om karakters te maken uit 3D-vormen, maar het is niet je enige optie.
 
   --- /feedback ---
 
-- ( ) Create a model in a 3D modelling tool and import it into Unity
+- ( ) Maak een model in een 3D-modelleringstool en importeer het in Unity
 
   --- feedback ---
 
-You can create models using a 3D modelling tool such as Blender but that's not the only way you can get a model for your character.
+Je kunt modellen maken met een 3D-modelleringstool zoals Blender, maar dat is niet de enige manier om een model voor je personage te krijgen.
 
   --- /feedback ---
 
-- ( ) Use a Unity model asset that someone else has created and you have permission to reuse
+- ( ) Gebruik een 'Unity model' asset dat iemand anders heeft gemaakt en waarvoor je toestemming hebt om het te hergebruiken
 
   --- feedback ---
 
-You can use Unity model assets created by others if you have permission. The Unity Asset Store has lots of free and paid assets. If you are under 18 then you will need support from a parent or guardian to use the Unity Asset Store.
+Je kunt Unity model assets gebruiken die door anderen zijn gemaakt als je toestemming hebt. De Unity Asset Store heeft veel gratis en betalende assets. Als je jonger bent dan 18 jaar, heb je ondersteuning nodig van een ouder of voogd om de Unity Asset Store te gebruiken.
 
   --- /feedback ---
 
-- (x) All of the above
+- (x) Alle bovenstaande antwoorden
 
-  --- feedback --- Yes, these are all ways to find or create a visual character to use in Unity. Some people specialise in developing 3D models while others prefer to use models created by other people.
+  --- feedback --- Ja, dit zijn allemaal manieren om een visueel personage te vinden of te creëren voor gebruik in Unity. Sommige mensen zijn gespecialiseerd in het ontwikkelen van 3D-modellen, terwijl anderen liever modellen gebruiken die door andere mensen zijn gemaakt.
 
   --- /feedback ---
 
