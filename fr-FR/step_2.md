@@ -1,35 +1,35 @@
-## Theme your world
+## Thématiser ton monde
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What will your world be like? The material you choose for the ground will set the scene and you will choose or create a player character. 
+À quoi ressemblera ton monde ? Le matériau que tu choisiras définira la scène et tu choisiras ou créeras un personnage joueur. 
 
 </div>
 <div>
-![The Scene view showing a character made from 3D GameObjects with coloured materials. The Character is standing on a plane.](images/character-plane.png){:width="300px"}
+![La vue Scene montre un personnage créé à partir de 3D GameObjects avec des matériaux colorés. Le personnage se trouve dans un avion.](images/character-plane.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Think about the kind of world you want to make:
+Réfléchis au type de monde que tu veux créer :
 
-+ What kind of biome, habitat, geography, or weather system will it have?
-+ Will it be based on somewhere in the real world, an imagined planet, or based on a book or movie you enjoy?
++ Quel type de biome, d'habitat, de géographie ou de système météorologique aura-t-il ?
++ Sera-t-il basé sur un endroit du monde réel, sur une planète imaginaire, ou sur un livre ou un film que tu aimes ?
 
-Think of a **name** for your world.
+Réfléchi à un **nom** pour ton monde.
 
 --- /task ---
 
 --- task ---
 
-**Choose:**
+**Choisir :**
 
-Open your Introduction to Unity project containing the scenes you created in the three Explore projects in this path.
+Ouvre ton projet d'introduction à Unity contenant les scènes que tu as créées dans les trois projets Explorer de ce parcours.
 
-Or
+Ou
 
-Download and unzip the [Unity starter package](https://rpf.io/p/en/world-builder-go){:target="_blank"} to your computer. Choose a sensible location such as your Documents folder. Create a new 3D Unity project and import the starter package.
+Télécharge et décompresse le [package de démarrage Unity](https://rpf.io/p/en/world-builder-go){:target="_blank"} sur ton ordinateur. Choisis un emplacement judicieux, par exemple ton dossier Documents. Crée un nouveau projet 3D Unity et importe le package de démarrage.
 
 [[[unity-create-3d-project]]]
 
@@ -39,134 +39,134 @@ Download and unzip the [Unity starter package](https://rpf.io/p/en/world-builder
 
 --- task ---
 
-**Choose:**
+**Choisir :**
 
-You can either create a new empty scene in the project, or save a copy of your Star collector scene with a new name.
+Tu peux soit créer une nouvelle scène vide dans le projet, soit enregistrer une copie de ta scène Collectionneur d'étoiles avec un nouveau nom.
 
-Name the new scene with the name of your world.
+Nomme la nouvelle scène avec le nom de ton monde.
 
 
 --- collapse ---
 
 ---
-title: Create a new scene
+title: Créer une nouvelle scène
 ---
 
-Select **File** then **New Scene**.
+Sélectionne **File** puis **New Scene**.
 
-![The expanded file menu showing the 'New Scene' option.](images/new-scene.png)
+![Le menu de fichiers élargi montrant l'option « New Scene ».](images/new-scene.png)
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Save a copy of an existing scene
+title: Enregistrer une copie d'une scène existante
 ---
 
-Right-click on your **NPC scene** and choose **Save As**.
+Fais un clic droit sur ton **NPC scene** et choisis **Save As**.
 
-Delete any GameObjects that you don't want in your new world. If you think you might want to use a GameObject later, you can deactivate it by unchecking the box next to its name in the Inspector.
+Supprime tous les GameObjects que tu ne veux pas dans ton nouveau monde. Si tu penses vouloir utiliser un GameObject plus tard, tu peux le désactiver en décochant la case à côté de son nom dans l'Inspector.
 
-![The Inspector window for the NPC Dog GameObject with the active box unchecked.](images/dog-inactive.png)
+![La fenêtre Inspector pour le GameObject Dog PNJ avec l'active box décochée.](images/dog-inactive.png)
 
 --- /collapse ---
 
 --- /task ---
 
-Your world or map will need a floor or ground for the player to walk on.
+Ton monde ou ta carte aura besoin d'un sol sur lequel le joueur pourra marcher.
 
 --- task ---
 
-If you're starting from a new scene, add a plane for the floor. If you're working on an existing scene, you can just change the material or size.
+Si tu pars d'une nouvelle scène, ajoute un plan pour le sol. Si tu travailles sur une scène existante, tu peux simplement changer le matériau ou la taille.
 
-![The Scene view showing a large plane.](images/new-plane.png)
+![La vue Scene montrant un grand avion.](images/new-plane.png)
 
 --- collapse ---
 
 ---
-title: Add a plane
+title: Ajouter un plan
 ---
 
-Right-click on your scene in the Hierarchy window and select **GameObject** then **3D Object** then **Plane**.
+Fais un clic droit sur ta scène dans la fenêtre Hierarchy et sélectionne **GameObject** puis **3D Object** puis **Plane**.
 
-![The 3D object menu with 'plane' highlighted.](images/3D-plane.png)
+![Le menu des objets 3D avec « plane » en surbrillance.](images/3D-plane.png)
 
-The default size for the plane is 10m × 10m. Unity uses meters as the unit of measurement.
+La taille par défaut du plan est de 10 m × 10 m. Unity utilise le mètre comme unité de mesure.
 
-You can change the x and z Scale properties for the Plane's Transform in the Scene view or in the Inspector.
+Tu peux modifier les propriétés x et z Scale pour le Transform du plan dans la vue Scene ou dans l'Inspector.
 
-![The Transform component showing x and z scale properties with the value 4.](images/plane-transform.png)
+![Le composant Transform montrant les propriétés x et z scale avec la valeur 4.](images/plane-transform.png)
 
 --- /collapse ---
 
 [[[unity-terrain-object]]]
 
-Add or change the material of the plane to fit with the world you are designing.
+Ajoute ou modifie le matériau de l'avion pour qu'il corresponde au monde que tu es en train de concevoir.
 
-![The Scene view showing a large plane with 'Yellow Stone' material.](images/yellow-stone-plane.png)
+![La vue Scene montrant un grand avion avec le matériau « Yellow Stone ».](images/yellow-stone-plane.png)
 
 [[[unity-material-with-texture]]]
 
 --- /task ---
 
-What kind of character will the Player be in your world? We have included some animal and car model objects that you can choose from. Alternatively, you can make a character from a 3D GameObject with child objects that move together.
+Quel genre de personnage le joueur sera-t-il dans ton monde ? Nous avons inclus des objets de modèles d'animaux et de voitures parmi lesquels tu peux choisir. Tu peux aussi créer un personnage à partir d'un 3D GameObject avec des objets enfants qui se déplacent ensemble.
 
-![A strip of images showing different characters. There are characters built from 3D GameObjects, and characters from models such as the cat, raccoon, and cars.](images/player-examples.png)
+![Une bande d'images montrant différents personnages. Il y a des personnages construits à partir de 3D GameObjects, et des personnages issus de modèles tels que le chat, le raton laveur et les voitures.](images/player-examples.png)
 
 --- task ---
 
-If you made a copy of an existing scene but want a different player character:
-+ Drag the Main Camera from the existing Player to the top level in the Hierarchy, then
-+ Delete the Player GameObject.
+Si tu as fait une copie d'une scène existante mais que tu veux un personnage différent :
++ Fais glisser la Main Camera du joueur existant jusqu'au niveau supérieur dans Hierarchy, puis
++ Supprime le GameObject Player.
 
-Models can be created in 3D modelling tools such as Blender. You can also reuse existing Models if you have permission. To save time, we recommend that you use one of the models we have provided, or design your own GameObject using 3D shapes in Unity.
+Les modèles peuvent être créés dans des outils de modélisation 3D tels que Blender. Tu peux aussi réutiliser des modèles existants si tu en as l'autorisation. Pour gagner du temps, nous te recommandons d'utiliser l'un des modèles que nous avons fournis, ou de concevoir ton propre GameObject en utilisant des formes 3D dans Unity.
 
-**Choose:**
+**Choisir :**
 
 --- collapse ---
 
 ---
-title: Create a GameObject from a model
+title: Créer un GameObject à partir d'un modèle
 ---
 
-Navigate to the Model you want to use in the Project window.
+Va jusqu'au modèle que tu veux utiliser dans la fenêtre Project.
 
-Drag the Model to your scene.
+Fais glisser le modèle sur ta scène.
 
-![The Scene view with the Raccoon model added.](images/raccoon-character.png)
+![La vue Scene avec le modèle Raccoon ajouté.](images/raccoon-character.png)
 
-Name the new GameObject `Player` and add the Player tag.
+Nomme le nouveau GameObject `Joueur` et ajoute le tag Joueur.
 
-![The Inspector window for the Player character. The model has been renamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
+![La fenêtre Inspecteur du personnage joueur. Le modèle a été renommé « Joueur » et le tag a été mis à jour pour indiquer « Joueur ».](images/player-tag.png)
 
-Adjust the start position of the Player's Transform.
+Ajuste la position de départ du Transform du joueur.
 
-If you use the Cat or Raccoon, decide which accessories you will enable, then disable the others by unchecking the box next to their name in the Inspector.
+Si tu utilises Cat ou Raccoon, décide des accessoires que tu vas activer, puis désactive les autres en décochant la case à côté de leur nom dans l'Inspector.
 
-![The Player with 'ConstructionGearMesh' and 'PartHatandBowtie' disabled.](images/child-disabled.png)
+![Le joueur avec « ConstructionGearMesh » et « PartHatandBowtie » désactivés.](images/child-disabled.png)
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Create a GameObject from 3D shapes
+title: Créer un GameObject à partir de formes 3D
 ---
 
-Create an 'Empty' 3D object to represent the player.
+Crée un objet 3D « Empy » pour représenter le joueur.
 
-![The Hierarchy window with right-click menu expanded and 'Create Empty' selected.](images/empty-object.png)
+![La fenêtre Hierarchy avec le menu contextuel développé et « Create Empty » sélectionné.](images/empty-object.png)
 
-Name the new GameObject `Player` and add the Player tag.
+Nomme le nouveau GameObject `Joueur` et ajoute le tag Joueur.
 
-![The Inspector window for the Player character. The model has been renamed 'Player' and the tag has been updated to show 'Player'.](images/player-tag.png)
+![La fenêtre Inspecteur du personnage joueur. Le modèle a été renommé « Joueur » et le tag a été mis à jour pour indiquer « Joueur ».](images/player-tag.png)
 
-Right-click on the Player and add other 3D shapes from **Create** > **3D Object** as child GameObjects. The child objects will move with the Player GameObject.
+Fais un clic droit sur le joueur et ajoute d'autres formes 3D à partir de **Create** > **3D Object** en tant que GameObjects enfants. Les objets enfants se déplacent en même temps que le GameObject Joueur.
 
-This character has a 'Capsule' body with child GameObjects that are 'Spheres' and 'Cylinders'. The shapes have been renamed to represent their body part.
+Ce personnage a un corps « Capsule » avec des GameObjects enfants qui sont des « Spheres » et des « Cylinders ». Les formes ont été renommées pour représenter leur partie du corps.
 
-![A 3D shape character in Scene view and the Hierarchy window showing the 3D shape child objects that make up the whole character.](images/3d-shape-character.png){:width="400px"}
+![Un personnage de forme 3D en vue Scene et la fenêtre Hierarchy montrant les objets enfants de forme 3D qui constituent l'ensemble du personnage.](images/3d-shape-character.png){:width="400px"}
 
 --- /collapse ---
 
@@ -174,35 +174,35 @@ This character has a 'Capsule' body with child GameObjects that are 'Spheres' an
 
 --- task ---
 
-**Debug:**
+**Déboguer :**
 
 [[[unity-assign-material]]]
 
 --- collapse ---
 
 ---
-title: The material texture is too big or small
+title: La texture du matériau est trop grande ou trop petite
 ---
 
-You can change the **Tiling** properties for the material, or for a material used in a GameObject. Choose bigger tiling numbers to create a smaller pattern.
+Tu peux modifier les propriétés **Tiling** pour le matériau, ou pour un matériau utilisé dans un GameObject. Choisis des nombres de carreaux plus importants pour créer un motif plus petit.
 
-![The Inspector window showing Tiling size set to '50'.](images/tiling-component.png)
+![La fenêtre Inspecteur montrant la taille de Tiling définie à « 50 ».](images/tiling-component.png)
 
-![The Game view plane with Stone Wall material tiled at 1 (very large stones), 50 (medium sized stones), and 100 (small stones).](images/tiling.png)
+![Le plan de vue Game avec le matériau Stone Wall avec un Tile à 1 (très grosses pierres), 50 (pierres de taille moyenne) et 100 (petites pierres).](images/tiling.png)
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I deleted the Camera!
+title: J'ai supprimé la caméra !
 ---
 
-If your Camera is a child of the Player and you delete the Player, then you will also delete the Camera.
+Si ta caméra est un enfant du joueur et que tu supprimes le joueur, tu supprimeras également la caméra.
 
-To add a new Camera, right-click in the Hierarchy and choose Camera.
+Pour ajouter une nouvelle caméra, fais un clic droit dans Hierarchy et choisis Camera.
 
-You can drag this Camera to be a child of your Player and adjust the settings.
+Tu peux faire glisser cette caméra pour qu'elle devienne un enfant de ton joueur et ajuster les paramètres.
 
 --- /collapse ---
 
