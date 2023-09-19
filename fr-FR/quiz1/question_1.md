@@ -1,48 +1,48 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Question 1 sur 3
 ---
 
-Imagine you have been asked to create a new video game. How could you get a visual character for your player GameObject?
+Imagine que l'on te demande de créer un nouveau jeu vidéo. Comment peux-tu créer un personnage pour ton GameObject joueur ?
 
 --- choices ---
 
-- ( ) Combine 3D objects to design a character from geometric shapes
+- ( ) Combiner des objets en 3D pour créer un personnage à partir de formes géométriques
 
   --- feedback ---
 
-  This is a great way to create characters that can be made from 3D shapes, but it's not your only option.
+  C'est un excellent moyen de créer des personnages à partir de formes 3D, mais ce n'est pas la seule option.
 
   --- /feedback ---
 
-- ( ) Create a model in a 3D modelling tool and import it into Unity
+- ( ) Créer un modèle dans un outil de modélisation 3D et l'importer dans Unity
 
   --- feedback ---
 
-You can create models using a 3D modelling tool such as Blender but that's not the only way you can get a model for your character.
+Tu peux créer des modèles à l'aide d'un outil de modélisation 3D tel que Blender, mais ce n'est pas la seule façon d'obtenir un modèle pour ton personnage.
 
   --- /feedback ---
 
-- ( ) Use a Unity model asset that someone else has created and you have permission to reuse
+- ( ) Utiliser un asset de modèles Unity créé par quelqu'un d'autre et que tu as le droit de réutiliser
 
   --- feedback ---
 
-You can use Unity model assets created by others if you have permission. The Unity Asset Store has lots of free and paid assets. If you are under 18 then you will need support from a parent or guardian to use the Unity Asset Store.
+Tu peux utiliser les assets de modèles Unity créés par d'autres personnes si tu en as l'autorisation. L'Unity Asset Store propose de nombreuses assets gratuits et payants. Si tu as moins de 18 ans, tu auras besoin de l'aide d'un parent ou d'un tuteur pour utiliser Unity Asset Store.
 
   --- /feedback ---
 
-- (x) All of the above
+- (x) Tout ce qui précède
 
-  --- feedback --- Yes, these are all ways to find or create a visual character to use in Unity. Some people specialise in developing 3D models while others prefer to use models created by other people.
+  --- feedback --- Oui, ce sont toutes des façons de trouver ou de créer un personnage à utiliser dans Unity. Certaines personnes se spécialisent dans le développement de modèles 3D tandis que d'autres préfèrent utiliser des modèles créés par d'autres personnes.
 
   --- /feedback ---
 
