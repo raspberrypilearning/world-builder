@@ -12,7 +12,7 @@ Veel plezier!
 legend: Vraag 1 van 3
 ---
 
-Stel je voor dat je wordt gevraagd een nieuwe videogame te maken. How could you get a visual character for your player GameObject?
+Stel je voor dat je wordt gevraagd een nieuwe videogame te maken. Hoe kun je een visueel personage krijgen voor je speler GameObject?
 
 --- choices ---
 
