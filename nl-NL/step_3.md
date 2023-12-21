@@ -150,7 +150,7 @@ Je kan altijd later nog de camera-instellingen aanpassen als je landschap helema
 **Fouten oplossen:**
 
 Handige tips om fouten op te sporen:
-- Schakel de Playl modus tint in zodat je kunt zien wanneer je in Game modus bent.
+- Schakel de Play modus tint in zodat je kunt zien wanneer je in Game modus bent.
 - Klik op **Gizmos** in de Play modus en klik vervolgens op een GameObject in de Inspector om zijn colliders te bekijken.
 - Check de waarden van public variables in de Inspector in de Play modus om te zien hoe ze veranderen.
 - Gebruik `Debug.Log()` om berichten af te drukken naar de Console om te begrijpen wat er aan de hand is.

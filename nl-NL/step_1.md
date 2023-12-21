@@ -7,7 +7,7 @@ Op deze wereld bouw je verder op de volgende twee projecten in het traject [Inle
 Dit project wordt je aangeboden met steun van [Unity Technologies](https://unity.com/){:target="_blank"}. Deze [projecten](https://projects.raspberrypi.org/nl-NL/pathways/unity-intro){:target="_blank"} bieden jongeren de kans om hun eerste stappen te zetten in het maken van virtuele werelden met gebruik van Real-Time 3D.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**World building**</span> laat je je fantasie gebruiken om een omgeving te bedenken en deze dan tot leven te laten komen. World building can involve storytelling, visual design, map making, and character design. In Unity kun je een 3D-wereld bedenken en deze vervolgens zo maken dat anderen deze kunnen ervaren. 
+<span style="color: #0faeb0">**World building**</span> laat je je fantasie gebruiken om een omgeving te bedenken en deze dan tot leven te laten komen. Het bouwen van een wereld kan storytelling, visueel ontwerp, het maken van kaarten en het ontwerpen van personages omvatten. In Unity kun je een 3D-wereld bedenken en deze vervolgens zo maken dat anderen deze kunnen ervaren. 
 </p>
 
 Je gaat:

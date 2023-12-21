@@ -17,7 +17,7 @@ Denk na over het soort wereld dat je wilt maken:
 + Wat voor soort bioom, habitat, geografie of weersysteem zal het hebben?
 + Is het gebaseerd op een bestaande plek in de echte wereld, op een denkbeeldige planeet, of op een boek of film die je leuk vindt?
 
-Bedenk een **-naam** voor jouw wereld.
+Bedenk een **naam** voor jouw wereld.
 
 --- /task ---
 
@@ -96,7 +96,7 @@ Het standaardformaat voor het vlak is 10m × 10m. Unity gebruikt meters als meet
 
 Je kunt de x en z Scale eigenschappen voor de Transform van het vlak wijzigen in de Scène weergave of in de Inspector.
 
-![The Transform component showing x and z scale properties with the value 4.](images/plane-transform.png)
+![De Transform-component toont x- en z-Scale eigenschappen met de waarde 4.](images/plane-transform.png)
 
 --- /collapse ---
 
@@ -112,7 +112,7 @@ Voeg materiaal toe aan je vloer of wijzig het zodat het past bij de wereld die j
 
 Wat voor soort personage zal de Speler in je wereld zijn? We hebben enkele dieren en auto model voorwerpen al toegevoegd waar je uit kunt kiezen. Eventueel kun je zelf een personage maken van een 3D GameObject met onderliggende objecten die samen bewegen.
 
-![Een aantal afbeeldingen met de verschillende personages. There are characters built from 3D GameObjects, and characters from models such as the cat, raccoon, and cars.](images/player-examples.png)
+![Een aantal afbeeldingen met de verschillende personages. Er zijn personages opgebouwd uit 3D GameObjects, en personages uit modellen zoals de Cat, Raccoon en auto's.](images/player-examples.png)
 
 --- task ---
 
@@ -151,7 +151,7 @@ Als je de Cat of Raccoon gebruikt, kies dan welke accessoires je wilt gebruiken,
 --- collapse ---
 
 ---
-title: Create a GameObject from 3D shapes
+title: Maak een GameObject van 3D-vormen
 ---
 
 Maak een 'Empty' 3D-object voor de speler.
@@ -162,7 +162,7 @@ Noem het nieuwe GameObject `Player` en voeg de Playertag toe.
 
 ![Het Inspector venster voor het speler personage. Het model is hernoemd naar 'Player' en de tag is bijgewerkt naar 'Player'.](images/player-tag.png)
 
-Klik met de rechtermuisknop op de speler en voeg andere 3D-vormen toe vanuit**Create** > **3D Object** als onderliggende GameObjects. De onderliggende objecten zullen meebewegen met het Player GameObject.
+Klik met de rechtermuisknop op de speler en voeg andere 3D-vormen toe vanuit **Create** > **3D Object** als onderliggende GameObjects. De onderliggende objecten zullen meebewegen met het Player GameObject.
 
 Dit personage heeft een 'Capsule'-lichaam met onderliggende GameObjects die 'Spheres' en 'Cylinders' zijn. De vormen hebben de naam gekregen van het lichaamsdeel dat ze voorstellen.
 
@@ -202,7 +202,7 @@ Als je Camera een onderliggend object is van de Speler en je de speler verwijder
 
 Om een nieuwe camera toe te voegen, klik je met de rechtermuisknop in de Hierarchy en kies Camera.
 
-You can drag this Camera to be a child of your Player and adjust the settings.
+Je kunt deze camera slepen naar de Player zodat het een onderliggend object wordt en de instellingen aanpassen.
 
 --- /collapse ---
 
