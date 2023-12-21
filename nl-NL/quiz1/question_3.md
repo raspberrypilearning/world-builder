@@ -5,7 +5,7 @@
 legend: Vraag 3 van 3
 ---
 
-3D-werelden kunnen vanuit verschillende perspectieven worden bekeken. The Raccoon is the Player character in this game. Welk perspectief gebruikt het spel?
+3D-werelden kunnen vanuit verschillende perspectieven worden bekeken. De Raccoon is het Speler personage in dit spel. Welk perspectief gebruikt het spel?
 
 ![Een raccoon speler personage dat van achter wordt bekeken.](images/perspective-view.png)
 
