@@ -11,9 +11,9 @@ Voici quelques idées que tu pourrais essayer :
 - Ajuste le mouvement du joueur et l'angle de la caméra pour obtenir l'effet que tu souhaites
 - Clique sur **+** dans Hierarchy, choisis **Light** et ajoute une **Directional Light** pour éclairer une partie de ton monde
 
-<iframe allowtransparency="true" width="710" height="500" src="https://world-builder-ms.rpfilt.repl.co" frameborder="0"></iframe>
-<iframe allowtransparency="true" width="710" height="500" src="https://weatherworld.rpfilt.repl.co" frameborder="0"></iframe>
-<iframe allowtransparency="true" width="710" height="500" src="https://castleworldbuilder.rpfilt.repl.co" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/world-builder-ms" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/weatherworld" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/castleworldbuilder" frameborder="0"></iframe>
 
 Jette un coup d'œil à certains projets Bâtisseur de mondes créés par les membres de la communauté dans la galerie de Raspberry Pi Foundation de [World builder Community Projects](https://wke.lt/w/s/IlaRMQ){:target='_blank'}.
 
