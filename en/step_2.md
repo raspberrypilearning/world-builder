@@ -154,7 +154,7 @@ If you use the Cat or Raccoon, decide which accessories you will enable, then di
 title: Create a GameObject from 3D shapes
 ---
 
-Create an 'Empty' 3D object to represent the player. 
+Right-click in the Hierarchy window and create an 'Empty' GameObject to represent the player. 
 
 ![The Hierarchy window with right-click menu expanded and 'Create Empty' selected.](images/empty-object.png)
 
